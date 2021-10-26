@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Qestionnaire_Execution" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Questionnaire" />
+
+ <!--       <parameter name="webSite" value="https://zoomstg.guisystems.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://zoomstg.guisystems.com/" />
+      <parameter name="env" value="Stage" />
+      
+<!--       <parameter name="webSite" value="https://zoomstg.guisystems.com/" /> -->
+<!--       <parameter name="env" value="STAGE" /> -->
+        	
+	    <test name="Questionnaire Testing"> 
+		    <groups>
+	        	<run>
+		            <include name="Questionnaire Testing" />
+		        </run>
+		    </groups>
+		    <classes>
+		    	<class name="com.inszoomapp.testscripts.QuestionnaireTestScript" >
+		    	<methods>
+				<include name = "TC_1" />
+				<include name = "TC_7" />
+					<include name = "TC_39" />
+					<include name = "TC_40" />
+					<include name = "TC_41" />
+					
+					<include name = "TC_47" />
+					<include name = "TC_48" />
+					
+					
+					<include name = "TC_2" />
+					<include name = "TC_3" />
+					<include name = "TC_53" />
+					<include name = "TC_54" />
+
+					<include name = "TC_8" />
+					<include name = "TC_9" />
+					<include name = "TC_55" />
+					<include name = "TC_56" />
+					<include name = "TC_57" />
+					<include name = "TC_58" />
+					
+					
+					<include name = "TC_6" />
+					<include name = "TC_29" />
+					<include name = "TC_34" />
+					<include name = "TC_19" />
+					<include name = "TC_24" />
+					<include name = "TC_13" />
+					<include name = "TC_18" />
+					<include name = "TC_35" />
+					<include name = "TC_38" />
+					<include name = "TC_49" />
+					<include name = "TC_51" />
+					<include name = "TC_12" />
+					
+					<include name = "TC_59" />
+					<include name = "TC_60" />
+					<include name = "TC_61" />
+					<include name = "TC_62" />
+				
+					<include name = "TC_11" />
+					<include name = "TC_5" />
+
+					<include name = "TC_70_0" />
+					<include name = "TC_70_1" />
+					<include name = "TC_70_2" />
+					<include name = "TC_70_3" />
+					<include name = "TC_70_4" />
+
+					<include name = "TC_71_1" />
+					<include name = "TC_71_2" />
+					<include name = "TC_71_3" />
+
+					<include name = "TC_72_1" />
+					<include name = "TC_72_2" />
+					<include name = "TC_72_3" />
+				</methods>
+		    	</class>
+		    </classes>
+		</test>
+		
+
+</suite>

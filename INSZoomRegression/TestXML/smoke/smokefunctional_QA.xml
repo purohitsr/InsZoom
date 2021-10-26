@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smokeFunctional" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="functionalSmoke" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+       <test name="INSZoomTestcase Execution_CaseManager">
+            <classes>
+
+            	<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+            		<methods>
+	            		<include name="CM_TC_1" /><!--corporation Creation-->
+	            		<include name="CM_TC_3" /><!--client Creation-->
+					    <include name="CM_TC_60_3" /><!--case creation Creation-->
+						<include name="CM_TC_20_0_1" /><!--prerequisite : CM_TC_20_1-->
+						<include name="CM_TC_20_1" /><!--Client: Add Questionnaire-->
+						<include name="CM_TC_20_0_2" /><!--prerequisite : CM_TC_45_1-->
+						<include name="CM_TC_45_1" /><!--Case: Add Questionnaire-->
+						<include name="CM_TC_65_1" /><!--Corporation : Add Questionnaire-->
+						<include name="CM_TC_58_0" /><!--Corporation : Email Questionnaire-->
+						<include name="CM_TC_20_4" /><!--Client : Email Questionnaire-->
+						<include name="CM_TC_43_1" /> <!--Case: Add Forms-->
+            		</methods>
+            	</class>
+
+   	  </classes>       
+	</test>
+       
+</suite>

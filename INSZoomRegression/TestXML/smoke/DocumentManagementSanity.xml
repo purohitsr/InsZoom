@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Document Management Sanity" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Document Management" />
+
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      
+	<test name="Document Management Sanity">
+		<classes>
+			<class name="com.inszoomapp.testscripts.DocumentManagementTestScript">			
+				<methods>
+					<include name="Client_Doc_3_1" />
+					<include name="Client_Doc_3_2" />
+					<include name="Client_Doc_6" />
+					<include name="Client_Doc_26" />
+					<include name="Client_Doc_7" />
+					<include name="Client_Doc_20" />
+					<include name="Client_Doc_21" />
+					<include name="Client_Doc_23_1" />
+					<include name="Client_Doc_23_2" />
+					<include name="Client_Doc_10_1" />
+					<include name="Client_Doc_10_2" />
+					<include name="Client_Doc_10_3" />
+					
+					<include name="Corp_Doc_3_1" />
+					<include name="Corp_Doc_3_2" />
+					<include name="Corp_Doc_6" />
+					<include name="Corp_Doc_7" />
+					<include name="Corp_Doc_10_3" />
+					<include name="Corp_Doc_12" />
+					<include name="Corp_Doc_13_1" />
+					<include name="Corp_Doc_13_2" />
+					<include name="Corp_Doc_21" />
+					<include name="Corp_Doc_22" />
+					<include name="Corp_Doc_23_1" />
+					<include name="Corp_Doc_23_2" />
+					<include name="Corp_Doc_26" />
+					
+					<include name="Case_Doc_3_1" />
+					<include name="Case_Doc_4_1" />
+					<include name="Case_Doc_5_1" />
+					<include name="Case_Doc_5_2" />
+					<include name="Case_Doc_8" />
+					<include name="Case_Doc_9" />
+					<include name="Case_Doc_10_1" />
+					<include name="Case_Doc_10_2" />
+					<include name="Case_Doc_10_3" />
+					<include name="Case_Doc_10_4" />
+					<include name="Case_Doc_23_1" />
+					<include name="Case_Doc_23_2" />
+					<include name="Case_Doc_35" />
+				</methods>
+			</class>
+			<class name="com.inszoomapp.testscripts.HRPTestScript">                
+				<methods> 
+					<include name="Corp_Doc_33" />
+					<include name="HRP_TC_25" />
+					<include name="HRP_TC_24_1" />
+					<include name="HRP_TC_9_1" />
+					<include name="Client_Doc_34" />
+				</methods>
+			</class>
+           	<class name="com.inszoomapp.testscripts.FNPTestScript">			
+				<methods>
+					<include name="Client_Doc_33" />
+					<include name="CM_TC_75_2" />
+				</methods>
+			</class>
+			<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+       			<methods>
+					<include name="CM_TC_84_2" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+					

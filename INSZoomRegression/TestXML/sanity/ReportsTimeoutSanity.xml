@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Reports 3.0" verbose="10">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      <parameter name="env" value="PROD" />
+      
+<!--       <parameter name="webSite" value="https://entdev.guisystems.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+
+       <test name="Sanity">
+            <classes>
+
+            	<class name="com.inszoomapp.testscripts.Reports3_0TestScript">
+            		<methods>            		
+						<include name="TO_1" />
+						<include name="TO_2" />
+						<include name="TO_3" />
+						<include name="TO_4" />
+						<include name="TO_5" />
+						<include name="TO_6" />
+						<include name="TO_7" />
+						<include name="TO_8" />
+						<include name="TO_9" />
+						<include name="TO_10" />
+						<include name="TO_11" />
+						<include name="TO_12" />
+						<include name="TO_13" />
+						<include name="TO_14" />
+						<include name="TO_15" />
+						<include name="TO_16" />
+						<include name="TO_17" />
+						<include name="TO_18" />
+						<include name="TO_19" />
+						<include name="TO_20" />
+						<include name="TO_21" />
+						<include name="TO_22" />
+						<include name="TO_23" />
+						<include name="TO_24" />
+						<include name="TO_25" />
+						<include name="TO_26" />
+						<include name="TO_27" />
+						<include name="TO_28" />
+						<include name="TO_29" />
+						<include name="TO_30" />
+						<include name="TO_31" />
+						<include name="TO_32" />
+						<include name="TO_33" />
+						<include name="TO_34" />
+						<include name="TO_35" />
+						<include name="TO_36" />
+						<include name="TO_37" />
+						<include name="TO_38" />
+						<include name="TO_39" />
+						<include name="TO_40" />
+						<include name="TO_41" />
+						<include name="TO_42" />
+						<include name="TO_43" />
+            		</methods>
+            	</class>
+   	  </classes>       
+	</test>
+       
+</suite>

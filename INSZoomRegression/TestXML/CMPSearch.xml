@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>								
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">								
+								
+<suite name="Demo" verbose="3" >								
+      <parameter name="deviceHost" value="localhost" />								
+      <parameter name="devicePort" value="4444" />								
+      <parameter name="browserName" value="chrome_windows" />								
+      <parameter name="sheetName" value="CMP Search" />								
+      								
+       <parameter name="webSite" value="https://qa.guisystems.com/" /> 								
+      <parameter name="env" value="QA" />								
+      								
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" />  -->								
+<!--       <parameter name="env" value="PROD" /> -->								
+								
+								
+	<test name="INSZoomTestcase Execution_CaseManager">							
+            <classes>								
+                  <class name="com.inszoomapp.testscripts.CMPSearchTestScript">								
+                        <methods>								
+								
+							<include name="CorpPrerequisite" />	
+							<include name="Corp_CMP_Search_1" />	
+							<include name="Corp_CMP_Search_2" />	
+							<include name="Corp_CMP_Search_3" />	
+							<include name="Corp_CMP_Search_4" />	
+							<include name="Corp_CMP_Search_5" />	
+								
+							<include name="ClientPrerequisite_1" />		
+							<include name="Client_CMP_Search_1" />	
+							<include name="Client_CMP_Search_2" />	
+							<include name="Client_CMP_Search_3" />	
+							<include name="Client_CMP_Search_4" />	
+
+							<include name="ClientPrerequisite_2" />	
+							<include name="Client_CMP_Search_6" /> 	
+							<include name="Client_CMP_Search_7" />	
+							<include name="Client_CMP_Search_8" />	
+							<include name="Client_CMP_Search_9" />	
+
+							<include name="Client_CMP_Search_12" />	
+							<include name="Client_CMP_Search_13" />	
+							<include name="Client_CMP_Search_14" />	
+								
+							<include name="CasePrerequisite" />	
+							<include name="Case_CMP_Search_1" />	
+							<include name="Case_CMP_Search_2" />	
+
+							<include name="Case_CMP_Search_4" />	
+							<include name="Case_CMP_Search_5" />	
+							<include name="Case_CMP_Search_6" />	
+								
+							<include name="Questionnaire_CMP_Search_1" />	
+							<include name="Questionnaire_CMP_Search_2" />	
+							<include name="Questionnaire_CMP_Search_3" /> 	
+							<include name="Questionnaire_CMP_Search_4" /> 	
+							<include name="Questionnaire_CMP_Search_5" /> 	
+								
+							<include name="ToDo_CMP_Search_1" />	
+							<include name="ToDo_CMP_Search_2" />	
+							<include name="ToDo_CMP_Search_3" />	
+								
+							<include name="HRP_CMP_Search_1" /> 	
+							<include name="HRP_CMP_Search_2" /> 	
+								
+							<include name="ProspectiveClientPrerequisite" />		
+							<include name="PClient_CMP_Search_1" />	
+							<include name="PClient_CMP_Search_2" />	
+							<include name="PClient_CMP_Search_3" /> 	
+							<include name="PClient_CMP_Search_4" />	
+								
+							<include name="ProspectiveCorporationPrerequisite" />
+							<include name="PSCorp_CMP_Search_1" />	
+							<include name="PSCorp_CMP_Search_2" />	
+							<include name="PSCorp_CMP_Search_3" />	
+							<include name="PSCorp_CMP_Search_4" />	
+							<include name="PSCorp_CMP_Search_5" />	
+							<include name="PSCorp_CMP_Search_6" />	
+							
+							<include name="CorpUserPrerequisite" />
+							<include name="CorpUser_CMP_Search_1" />
+							<include name="CorpUser_CMP_Search_2" />
+							<include name="CorpUser_CMP_Search_3" />	
+
+
+<!-- 			PARKED 													-->
+<!-- 			1				<include name="Client_CMP_Search_5" /> -->	
+<!-- 			2				<include name="Client_CMP_Search_10" /> -->	
+<!-- 			3				<include name="Client_CMP_Search_11" /> -->	
+<!-- 			4				<include name="Case_CMP_Search_3" />	 -->
+								
+								
+								
+           	     		</methods>             					
+       	   		 </class>               					
+   		  </classes>       						
+	</test>							
+        								
+								
+</suite>								
+								

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Contracts" />
+      
+       <parameter name="webSite" value="https://qa.guisystems.com/" /> 
+      <parameter name="env" value="QA" />
+      
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" />  -->
+<!--       <parameter name="env" value="PROD" /> -->
+
+
+	<test name="INSZoomTestcase Execution_CaseManager">
+            <classes>
+            
+            
+		    <class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+	            <methods>
+		                   
+                   
+                        <include name="CM_TC_1" />
+                        <include name="CM_TC_3" /> 
+                        <include name="CM_TC_7" />             
+                        <include name="CM_TC_60_3" />
+			    </methods>
+            </class>
+            
+            
+                  <class name="com.inszoomapp.testscripts.ContractsTestScript">
+                        <methods>
+									
+								<include name = "addContractTemplateInKB" />
+	
+								<include name = "Case_Contract_1" />
+								<include name = "Case_Contract_2" />
+								<include name = "Case_Contract_3" />
+								<include name = "Case_Contract_4" />
+								<include name = "Case_Contract_5" /> 
+								<include name = "Case_Contract_6" /> 
+								<include name = "Case_Contract_7" />
+								<include name = "Case_Contract_8" />
+								<include name = "Case_Contract_9" />
+								<include name = "Case_Contract_10" />
+								<include name = "Case_Contract_11" />
+								<include name = "Case_Contract_12" />
+								<include name = "Case_Contract_13_0" />
+								<include name = "Case_Contract_13_1" />
+								<include name = "Case_Contract_13_2" />
+								<include name = "Case_Contract_13_3" />
+								<include name = "Case_Contract_13_5" />
+<!-- 								<include name = "Case_Contract_13_6" /> -->
+<!-- 								<include name = "Case_Contract_14" /> -->
+								<include name = "Case_Contract_16" />
+								<include name = "Case_Contract_18" />
+								<include name = "Case_Contract_19" />
+									
+
+								<include name = "Corp_Contract_1" />
+								<include name = "Corp_Contract_3" />
+								<include name = "Corp_Contract_4" />
+								<include name = "Corp_Contract_5" />
+								<include name = "Corp_Contract_6" /> 
+								<include name = "Corp_Contract_7" /> 
+								<include name = "Corp_Contract_8" />
+								<include name = "Corp_Contract_9" />
+								<include name = "Corp_Contract_10" />
+								<include name = "Corp_Contract_11" />
+								<include name = "Corp_Contract_12" />
+								<include name = "Corp_Contract_13_0" />
+								<include name = "Corp_Contract_13_1" />
+								<include name = "Corp_Contract_13_2" />
+								<include name = "Corp_Contract_13_3" />
+								<include name = "Corp_Contract_13_5" />
+<!-- 								<include name = "Corp_Contract_13_6" /> -->
+<!-- 								<include name = "Corp_Contract_14" /> -->
+								<include name = "Corp_Contract_16" />
+								<include name = "Corp_Contract_18" />
+
+								<include name = "Client_Contract_1" /> 
+								<include name = "Client_Contract_3" /> 
+								<include name = "Client_Contract_4" />
+								<include name = "Client_Contract_5" />
+								<include name = "Client_Contract_6" />
+								<include name = "Client_Contract_7" />
+								<include name = "Client_Contract_8" />
+								<include name = "Client_Contract_9" />
+								<include name = "Client_Contract_10" />
+								<include name = "Client_Contract_11" />
+								<include name = "Client_Contract_12" />
+								<include name = "Client_Contract_13_0" />
+								<include name = "Client_Contract_13_1" />
+								<include name = "Client_Contract_13_2" />
+								<include name = "Client_Contract_13_3" /> 
+								<include name = "Client_Contract_13_5" />
+<!-- 								<include name = "Client_Contract_13_6" /> -->
+<!-- 								<include name = "Client_Contract_14" /> -->
+								<include name = "Client_Contract_16" />
+								<include name = "Client_Contract_18" />
+								<include name = "Client_Contract_20" />
+
+           	     </methods>             
+       	    </class>               
+   	  </classes>       
+	</test>
+        	
+
+</suite>

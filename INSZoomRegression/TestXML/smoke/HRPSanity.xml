@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HRP Sanity" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="HRP" />
+
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      
+	<test name="HRP Sanity">
+		<classes>
+			<class name="com.inszoomapp.testscripts.DocumentManagementTestScript">			
+				<methods>
+					<include name="Client_Doc_3_1" />
+					<include name="Client_Doc_21" />
+				</methods>
+			</class>
+			<class name="com.inszoomapp.testscripts.HRPTestScript">                
+				<methods> 
+					<include name="HRP_TC_1_0" />
+					<include name="HRP_TC_1_1" />
+					<include name="HRP_TC_9_1" />
+					<include name="HRP_TC_9_2" />
+					<include name="HRP_TC_11_1" />
+					<include name="HRP_TC_11_2" />
+					<include name="HRP_TC_11_4" />
+					<include name="HRP_TC_11_5" />
+					<include name="HRP_TC_11_6" />
+					<include name="HRP_TC_24_1" />
+					<include name="HRP_TC_24_2" />
+					<include name="HRP_TC_24_3" />
+					<include name="HRP_TC_24_4" />
+					<include name="HRP_TC_24_5" />
+					<include name="HRP_TC_25" />
+					<include name="HRP_TC_41_1" />
+					<include name="HRP_TC_41_2" />
+					<include name="HRP_TC_41_3" />
+					<include name="HRP_TC_41_4" />
+					<include name="HRP_TC_41_5" />
+					<include name="HRP_TC_41_6" />
+					<include name="HRP_TC_41_7" />
+					<include name="HRP_TC_52_1" />
+					<include name="HRP_TC_52_2" />
+					<include name="HRP_TC_52_3" />
+					<include name="HRP_TC_52_4" />
+					<include name="HRP_TC_52_5" />
+					<include name="HRP_TC_52_6" />
+					<include name="HRP_TC_52_7" />				
+				</methods>
+			</class>
+           	<class name="com.inszoomapp.testscripts.FNPTestScript">			
+				<methods>
+					<include name="FNP_TC_3_1" />
+					<include name="FNP_TC_3_2" />
+					<include name="FNP_TC_4_7" />
+					<include name="FNP_TC_74_2" />
+				</methods>
+			</class>
+			<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+       			<methods>
+					<include name="FNP_TC_3_3_0" />
+					<include name="FNP_TC_3_5_0" />
+					<include name="FNP_TC_3_4_0" />
+					<include name="FNP_TC_4_1_0" />
+					<include name="FNP_TC_4_2_0" />
+					<include name="FNP_TC_4_3_0" />
+					<include name="CM_TC_126_1" />
+					<include name="CM_TC_126_2" />
+					<include name="CM_TC_126_4" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+					

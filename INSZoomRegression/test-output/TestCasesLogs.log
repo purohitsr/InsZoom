@@ -1,0 +1,45 @@
+22-Sep-2021 17:56:33:357 INFO  [PoolService-0] Successfully lauched the URL https://qa.guisystems.com/ 
+22-Sep-2021 17:56:36:000 INFO  [PoolService-0] Typed asauravstg in Username textbox. 
+22-Sep-2021 17:56:38:569 INFO  [PoolService-0] Typed Zoom@123 in Password textbox. 
+22-Sep-2021 17:56:38:569 INFO  [PoolService-0] Clicking on Login Button 
+22-Sep-2021 17:56:39:498 INFO  [PoolService-0] Clicked on Login Button 
+22-Sep-2021 17:56:47:643 INFO  [PoolService-0] Time Taken to Login TO application is 11 
+22-Sep-2021 17:56:47:726 INFO  [PoolService-0] Agree option in the disclaimer is not present 
+22-Sep-2021 17:56:47:735 INFO  [PoolService-0] Clicking on Case Tab from left menu 
+22-Sep-2021 17:56:49:949 INFO  [PoolService-0] Clicked on Case Tab from left menu 
+22-Sep-2021 17:56:50:024 INFO  [PoolService-0] Clicking on Show all cases-3264627218 
+22-Sep-2021 17:56:55:015 INFO  [PoolService-0] Clicked on Show all cases-3264627218 
+22-Sep-2021 17:57:02:857 INFO  [PoolService-0] -3264627241 
+22-Sep-2021 17:57:10:481 INFO  [PoolService-0] Typed KBGRIT06900-1 in in case Id search box textbox. 
+22-Sep-2021 17:57:10:481 INFO  [PoolService-0] Clicking on Case ID 
+22-Sep-2021 17:57:10:940 INFO  [PoolService-0] Clicked on Case ID 
+22-Sep-2021 17:57:16:660 INFO  [PoolService-0] Clicked on EQUALTO filter to search client and waited for the loader to become invisible 
+22-Sep-2021 17:57:16:922 INFO  [PoolService-0] Clicking on KBGRIT06900-1 
+22-Sep-2021 17:57:23:202 INFO  [PoolService-0] Clicked on KBGRIT06900-1 
+22-Sep-2021 17:57:23:202 INFO  [PoolService-0] Clicking on To Do tab 
+22-Sep-2021 17:57:23:644 INFO  [PoolService-0] Clicked on To Do tab 
+22-Sep-2021 17:57:29:999 INFO  [PoolService-0] Clicking on New To Do button 
+22-Sep-2021 17:57:33:494 INFO  [PoolService-0] Clicked on New To Do button 
+22-Sep-2021 17:57:33:495 INFO  [PoolService-0] Clicking on questionnaire icon 
+22-Sep-2021 17:57:33:904 INFO  [PoolService-0] Clicked on questionnaire icon 
+22-Sep-2021 17:57:35:574 INFO  [PoolService-0] Selected option Client15-09-2021 06:01:30 Lname15-09-2021 06:01:30 from Dropdown By Visible text 
+22-Sep-2021 17:57:38:340 INFO  [PoolService-0] Typed Instruction for To-Do Questionnaire in instruction textbox. 
+22-Sep-2021 17:57:38:706 INFO  [PoolService-0] Clicking on expand Questionnaire 
+22-Sep-2021 17:57:39:196 INFO  [PoolService-0] Clicked on expand Questionnaire 
+22-Sep-2021 17:57:39:407 INFO  [PoolService-0] Clicking on add questionnaire link 
+22-Sep-2021 17:57:39:836 INFO  [PoolService-0] Clicked on add questionnaire link 
+22-Sep-2021 17:57:42:878 INFO  [PoolService-0] Typed Automation-I-941: Application for Entrepreneur Parole in entered questionnaire name textbox. 
+22-Sep-2021 17:57:42:878 INFO  [PoolService-0] Clicking on add questionnaire icon 
+22-Sep-2021 17:57:45:915 INFO  [PoolService-0] Clicked on add questionnaire icon 
+22-Sep-2021 17:57:45:943 INFO  [PoolService-0] Clicking on unlink all 
+22-Sep-2021 17:57:46:133 INFO  [PoolService-0] Clicked on unlink all 
+22-Sep-2021 17:57:46:137 INFO  [PoolService-0] Questionnaire was not present earlier 
+22-Sep-2021 17:57:46:450 INFO  [PoolService-0]  
+22-Sep-2021 17:57:46:450 INFO  [PoolService-0] Verified Automation-I-941: Application for Entrepreneur Parole in add to-do page 
+22-Sep-2021 17:59:46:604 ERROR [PoolService-0] Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0 
+22-Sep-2021 17:59:46:605 INFO  [PoolService-0] ****             -E---N---D-             ***** 

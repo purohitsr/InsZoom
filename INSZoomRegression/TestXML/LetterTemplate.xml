@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Letter Management Regression" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Letter Management" />
+      
+       <parameter name="webSite" value="https://qa.guisystems.com/" /> 
+      <parameter name="env" value="QA" />
+      
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" />  -->
+<!--       <parameter name="env" value="PROD" /> -->
+
+
+
+
+	<test name="LETTER Management">
+    	<classes>
+            
+		    <class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+	            <methods>
+		                   
+                   
+                        <include name="CM_TC_1" />
+                        <include name="CM_TC_3" />             
+                        <include name="CM_TC_60_3" />
+			    </methods>
+            </class>
+            
+                <class name="com.inszoomapp.testscripts.LetterManagementTestScript">
+                      <methods>
+							
+						<include name = "addLetterTemplateInKB" />
+						<include name = "useAllTemplatesCase" />
+						
+						<include name = "useAllTemplatesClient" />
+						<include name = "useAllTemplatesCorp" />
+						
+						<include name = "Case_LetterMS_1" />	
+						<include name = "Case_LetterMS_2" />	
+						<include name = "Case_LetterMS_3" />	
+						<include name = "Case_LetterMS_4" />	
+						<include name = "Case_LetterMS_5" />	
+						<include name = "Case_LetterMS_6" />	
+						<include name = "Case_LetterMS_7" />	
+						<include name = "Case_LetterMS_8" />	
+						<include name = "Case_LetterMS_9" />
+						<include name = "Case_LetterMS_10" />
+						<include name = "Case_LetterMS_11" />
+						<include name = "Case_LetterMS_12" />
+						<include name = "Case_LetterMS_16" />
+						<include name = "Case_LetterMS_22" />
+						<include name = "Case_LetterMS_23" />
+						<include name = "Case_LetterMS_24" />
+						<include name = "Case_LetterMS_25" />
+<!-- 						<include name = "Case_LetterMS_26" /> -->
+						<include name = "Case_LetterMS_27" />
+						<include name = "Case_LetterMS_28" />
+						<include name = "Case_LetterMS_29" />
+						<include name = "Case_LetterMS_30" />
+						<include name = "Case_LetterMS_31" />
+						<include name = "Case_LetterMS_32" />
+						<include name = "Case_LetterMS_33" />
+						<include name = "Case_LetterMS_34" />
+						<include name = "Case_LetterMS_35" />
+
+						<include name = "Client_LetterMS_1" />	
+						<include name = "Client_LetterMS_2" />	
+						<include name = "Client_LetterMS_3" />	
+						<include name = "Client_LetterMS_4" />	
+						<include name = "Client_LetterMS_5" />	
+						<include name = "Client_LetterMS_6" />	
+						<include name = "Client_LetterMS_7" />	
+						<include name = "Client_LetterMS_8" />	 
+						<include name = "Client_LetterMS_9" />
+						<include name = "Client_LetterMS_10" />
+						<include name = "Client_LetterMS_11" />
+						<include name = "Client_LetterMS_12" />
+						<include name = "Client_LetterMS_16" />
+						<include name = "Client_LetterMS_22" />
+						<include name = "Client_LetterMS_23" />
+						<include name = "Client_LetterMS_25" />
+<!-- 						<include name = "Client_LetterMS_26" /> -->
+						<include name = "Client_LetterMS_27" />
+						<include name = "Client_LetterMS_28" />
+						<include name = "Client_LetterMS_29" />
+						<include name = "Client_LetterMS_30" />
+						<include name = "Client_LetterMS_31" />
+						<include name = "Client_LetterMS_32" />
+						<include name = "Client_LetterMS_33" />
+						<include name = "Client_LetterMS_34" />
+						<include name = "Client_LetterMS_35" />
+
+
+
+						<include name = "Corp_LetterMS_1" />	
+						<include name = "Corp_LetterMS_2" />	
+						<include name = "Corp_LetterMS_3" />	
+						<include name = "Corp_LetterMS_4" />	
+						<include name = "Corp_LetterMS_5" />	
+						<include name = "Corp_LetterMS_6" />	
+						<include name = "Corp_LetterMS_7" />	
+						<include name = "Corp_LetterMS_8" />	
+						<include name = "Corp_LetterMS_9" />
+						<include name = "Corp_LetterMS_10" />
+						<include name = "Corp_LetterMS_11" />
+						<include name = "Corp_LetterMS_12" />
+						<include name = "Corp_LetterMS_16" />
+						<include name = "Corp_LetterMS_22" />
+						<include name = "Corp_LetterMS_23" />
+						<include name = "Corp_LetterMS_25" />
+<!-- 						<include name = "Corp_LetterMS_26" /> -->
+						<include name = "Corp_LetterMS_27" />
+						<include name = "Corp_LetterMS_28" />
+						<include name = "Corp_LetterMS_29" />
+						<include name = "Corp_LetterMS_30" />
+						<include name = "Corp_LetterMS_31" />
+						<include name = "Corp_LetterMS_32" />
+						<include name = "Corp_LetterMS_33" />
+						<include name = "Corp_LetterMS_34" />
+						<include name = "Corp_LetterMS_35" />
+
+
+<!-- 							<include name = "Corp_LetterMS_17" /> -->
+<!-- 							<include name = "Client_LetterMS_17" /> -->
+<!-- 							<include name = "Case_LetterMS_17" /> -->
+
+									
+<!-- 							<include name = "deleteLetterTemplateInKB" /> -->
+							
+
+						<include name = "Corp_LetterHTML_1" />
+						<include name = "Corp_LetterHTML_2" />
+						<include name = "Corp_LetterHTML_3" />
+						<include name = "Corp_LetterHTML_4" />
+						<include name = "Corp_LetterHTML_5" />
+						<include name = "Corp_LetterHTML_6" />
+						<include name = "Corp_LetterHTML_7" />
+<!-- 						<include name = "Corp_LetterHTML_8" /> -->
+							
+						<include name = "addHTMLLetterTemplateInKB" />
+						<include name = "Client_LetterHTML_1" />
+						<include name = "Client_LetterHTML_2" />
+						<include name = "Client_LetterHTML_3" />
+						<include name = "Client_LetterHTML_4" />
+						<include name = "Client_LetterHTML_5" />
+						<include name = "Client_LetterHTML_6" />
+						<include name = "Client_LetterHTML_7" />
+						<include name = "Client_LetterHTML_8" />
+						
+						<include name = "Case_LetterHTML_1" />
+						<include name = "Case_LetterHTML_2" />
+						<include name = "Case_LetterHTML_3" />
+						<include name = "Case_LetterHTML_4" />
+						<include name = "Case_LetterHTML_5" />
+						<include name = "Case_LetterHTML_6" />
+						<include name = "Case_LetterHTML_7" />
+						<include name = "Case_LetterHTML_8" /> s
+						<include name = "prerequisiteForCopyCase" />
+						<include name = "Case_LetterHTML_9" /> 
+										
+							
+           	     </methods>             
+       	    </class>               
+   	  </classes>       
+	</test>
+        	
+
+</suite>

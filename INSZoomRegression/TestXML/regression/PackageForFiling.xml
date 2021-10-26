@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+ 	  <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="PackageForFiling" /> 
+       
+	<parameter name="webSite" value="https://qa.guisystems.com" />
+	<parameter name="env" value="QA" />
+
+	
+	<test name="Package for filing ">
+		 <classes>
+			 <class name="com.inszoomapp.testscripts.CaseManagerTestScript" >
+			   <methods>
+					 <include name = "CM_TC_1" />
+					<include name = "CM_TC_3" />
+					<include name = "CM_TC_60_3" />
+					<include name = "CM_TC_90_1" />
+			   </methods>
+			</class>
+			
+			<class name="com.inszoomapp.testscripts.PackageForFilingTestScripts">
+				<methods>
+					<include name = "CM_PFF_TC_CorpDocumentUpload" />
+					<include name = "CM_PFF_TC_ClientDocUpload" />
+					<include name = "CM_PFF_TC_PRE" />
+					<include name = "CM_PFF_TC_1" />
+					<include name = "CM_PFF_TC_2" /> 
+					<include name = "CM_PFF_TC_3" />
+					<include name = "CM_PFF_TC_4" />
+					<include name = "CM_PFF_TC_5" />
+					<include name = "CM_PFF_TC_6" /> 
+					<include name = "CM_PFF_TC_7" />
+					<include name = "CM_PFF_TC_8" />
+					<include name = "CM_PFF_TC_9" />
+					<include name = "CM_PFF_TC_10" />
+					<include name = "CM_PFF_TC_11" />
+					<include name = "CM_PFF_TC_12" />
+					<include name = "CM_PFF_TC_13" />
+					<include name = "CM_PFF_TC_11_1" />
+					<include name = "CM_PFF_TC_12_1" />
+					<include name = "CM_PFF_TC_13_1" />
+					<include name = "CM_PFF_TC_14" />
+					<include name = "CM_PFF_TC_15" />
+					<include name = "CM_PFF_TC_16" />
+					<include name = "CM_PFF_TC_17" />
+					<include name = "CM_PFF_TC_18" />
+					<include name = "CM_PFF_TC_19" />
+					<include name = "CM_PFF_TC_20" />
+					<include name = "CM_PFF_TC_21" />
+					
+					<include name = "CM_PFF_TC_22" />
+					<include name = "CM_PFF_TC_23" />
+					<include name = "CM_PFF_TC_24" />
+					<include name = "CM_PFF_TC_25" /> 
+					<include name = "CM_PFF_TC_26" />
+					<include name = "CM_PFF_TC_27" />
+					
+					<include name = "CM_PFF_TC_28" />
+					
+					<include name = "CM_PFF_TC_30" />
+					<include name = "CM_PFF_TC_29" />
+					<include name = "CM_PFF_TC_31" />
+     				
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Inszoom" />
+<!--       <parameter name="browserName" value="edge_windows" /> -->
+
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+<!--       <parameter name="webSite" value="https://zoomstg.guisystems.com/" /> -->
+<!--       <parameter name="env" value="STAGE" /> -->
+
+       <test name="INSZoomTestcase Execution_CaseManager">
+            <classes>
+<!--             	<class name="com.inszoomapp.testscripts.AppUtils"></class> -->
+
+<!--             	<class name="fqkDB.FlatTablesSPExecution">			 -->
+<!-- 					<methods> -->
+<!-- 						<include name="connectDB" />		 -->
+<!-- 					</methods>			 -->
+<!-- 				</class>			 -->
+
+<!--             	<class name="com.inszoomapp.testscripts.DocumentManagementTestScript">			 -->
+<!-- 					<methods> -->
+					
+<!-- 						<include name="Client_Doc_1" /> -->
+<!-- 						<include name="Client_Doc_2" /> -->
+<!-- 						<include name="Client_Doc_3_1" /> -->
+<!-- 						<include name="Client_Doc_3_2" /> -->
+<!-- 						<include name="Client_Doc_4" />	 -->
+<!-- 						<include name="Client_Doc_5_1" />	 -->
+<!-- 						<include name="Client_Doc_5_2" /> -->
+<!-- 						<include name="Client_Doc_6" /> -->
+<!-- 						<include name="Client_Doc_7" /> -->
+<!-- 						<include name="Client_Doc_10_1" /> -->
+<!-- 						<include name="Client_Doc_10_2" /> -->
+<!-- 						<include name="Client_Doc_10_3" /> -->
+<!-- 						<include name="Client_Doc_11" /> -->
+<!-- 						<include name="Client_Doc_12" /> -->
+<!-- 						<include name="Client_Doc_13_1" /> -->
+<!-- 						<include name="Client_Doc_13_2" /> -->
+<!-- 						<include name="Client_Doc_13_3" /> -->
+<!-- 						<include name="Client_Doc_13_4" /> -->
+<!-- 						<include name="Client_Doc_14" /> -->
+<!-- 						<include name="Client_Doc_15" /> -->
+<!-- 						<include name="Client_Doc_16" /> -->
+<!-- 						<include name="Client_Doc_17_1" /> -->
+<!-- 						<include name="Client_Doc_17_2" /> -->
+<!-- 						<include name="Client_Doc_17_3" /> -->
+<!-- 						<include name="Client_Doc_18" /> -->
+<!-- 						<include name="Client_Doc_20" /> -->
+<!-- 						<include name="Client_Doc_21" /> -->
+<!-- 						<include name="Client_Doc_22" /> -->
+<!-- 						<include name="Client_Doc_23_1" /> -->
+<!-- 						<include name="Client_Doc_23_2" /> -->
+<!-- 						<include name="Client_Doc_25_1" /> -->
+<!-- 						<include name="Client_Doc_25_2" /> -->
+<!-- 						<include name="Client_Doc_25_3" /> -->
+<!-- 						<include name="Client_Doc_25_4" /> -->
+<!-- 						<include name="Client_Doc_26" /> -->
+<!-- 						<include name="Client_Doc_30" /> -->
+<!-- 						<include name="Client_Doc_32" /> -->
+
+<!-- 						<include name="Corp_Doc_17_1" /> -->
+<!-- 						<include name="Corp_Doc_17_2" /> -->
+<!-- 						<include name="Corp_Doc_17_3" /> -->
+<!-- 						<include name="Corp_Doc_1" /> -->
+<!-- 						<include name="Corp_Doc_2" /> -->
+<!-- 						<include name="Corp_Doc_3_1" /> -->
+<!-- 						<include name="Corp_Doc_3_2" /> -->
+<!-- 						<include name="Corp_Doc_4" /> -->
+<!-- 						<include name="Corp_Doc_6" /> -->
+<!-- 						<include name="Corp_Doc_7" /> -->
+<!-- 						<include name="Corp_Doc_5_1" /> -->
+<!-- 						<include name="Corp_Doc_5_2" /> -->
+<!-- 						<include name="Corp_Doc_10_3" /> -->
+<!-- 						<include name="Corp_Doc_11" /> -->
+<!-- 						<include name="Corp_Doc_12" /> -->
+<!-- 						<include name="Corp_Doc_13_1" /> -->
+<!-- 						<include name="Corp_Doc_13_2" /> -->
+<!-- 						<include name="Corp_Doc_14" /> -->
+<!-- 						<include name="Corp_Doc_15" /> -->
+<!-- 						<include name="Corp_Doc_16" /> -->
+<!-- 						<include name="Corp_Doc_18" /> -->
+<!-- 						<include name="Corp_Doc_20" /> -->
+<!-- 						<include name="Corp_Doc_21" /> -->
+<!-- 						<include name="Corp_Doc_22" /> -->
+<!-- 						<include name="Corp_Doc_23_1" /> -->
+<!-- 						<include name="Corp_Doc_23_2" /> -->
+<!-- 						<include name="Corp_Doc_25_1" /> -->
+<!-- 						<include name="Corp_Doc_25_2" /> -->
+<!-- 						<include name="Corp_Doc_25_3" /> -->
+<!-- 						<include name="Corp_Doc_25_4" /> -->
+<!-- 						<include name="Corp_Doc_26" /> -->
+<!-- 						<include name="Corp_Doc_30" /> -->
+<!-- 						<include name="Corp_Doc_32" /> -->
+
+<!-- 						<include name="Case_Doc_1" /> -->
+<!-- 						<include name="Case_Doc_2" /> -->
+<!-- 						<include name="Case_Doc_3_1" /> -->
+<!-- 						<include name="Case_Doc_3_2" /> -->
+<!-- 						<include name="Case_Doc_3_3" /> -->
+<!-- 						<include name="Case_Doc_4_1" /> -->
+<!-- 						<include name="Case_Doc_4_2" /> -->
+<!-- 						<include name="Case_Doc_4_3" /> -->
+<!-- 						<include name="Case_Doc_5_1" /> -->
+<!-- 						<include name="Case_Doc_5_2" /> -->
+<!-- 						<include name="Case_Doc_6" /> -->
+<!-- 						<include name="Case_Doc_7_1" /> -->
+<!-- 						<include name="Case_Doc_7_2" /> -->
+<!-- 						<include name="Case_Doc_8" /> -->
+<!-- 						<include name="Case_Doc_5_2" /> -->
+<!-- 						<include name="Case_Doc_9" /> -->
+<!-- 						<include name="Case_Doc_10_1" /> -->
+<!-- 						<include name="Case_Doc_10_2" /> -->
+<!-- 						<include name="Case_Doc_10_3" /> -->
+<!-- 						<include name="Case_Doc_10_4" /> -->
+<!-- 						<include name="Case_Doc_11" /> -->
+<!-- 						<include name="Case_Doc_12" /> -->
+<!-- 						<include name="Case_Doc_13_1" /> -->
+<!-- 						<include name="Case_Doc_13_3" /> -->
+<!-- 						<include name="Case_Doc_14" /> -->
+<!-- 						<include name="Case_Doc_15" /> -->
+<!-- 						<include name="Case_Doc_16" /> -->
+<!-- 						<include name="Case_Doc_17" /> -->
+<!-- 						<include name="Case_Doc_18" /> -->
+<!-- 						<include name="Case_Doc_19" /> -->
+<!-- 						<include name="Case_Doc_20" /> -->
+<!-- 						<include name="Case_Doc_21" /> -->
+<!-- 						<include name="Case_Doc_22" />	 -->
+<!-- 						<include name="Case_Doc_23_1" /> -->
+<!-- 						<include name="Case_Doc_23_2" /> -->
+<!-- 						<include name="Case_Doc_25_1" /> -->
+<!-- 						<include name="Case_Doc_25_2" /> -->
+<!-- 						<include name="Case_Doc_30" /> -->
+<!-- 						<include name="Case_Doc_32" /> -->
+<!-- 						<include name="Case_Doc_34" /> -->
+<!-- 						<include name="Case_Doc_35" /> -->
+<!-- 						<include name="Case_Doc_36" /> -->
+<!-- 						<include name="Case_Doc_37_1" /> -->
+<!-- 						<include name="Case_Doc_37_2" /> -->
+<!-- 						<include name="Case_Doc_37_3" /> -->
+<!-- 						<include name="Case_Doc_38" /> -->
+						
+<!-- 					</methods>			 -->
+<!-- 				</class> -->
+
+
+
+            	<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+            		<methods>            		
+<!-- 	            		<include name="CM_TC_13_3" />	 -->
+<!-- 	            		<include name="CM_TC_13_4" />	 -->
+<!-- 	            		<include name="CM_TC_13_5" />	 -->
+<!-- 	            		<include name="CM_TC_13_6" />	 -->
+<!-- 	            		<include name="CM_TC_13_1" />	 -->
+<!-- 	            		<include name="CM_TC_13_2" />	 -->
+<!-- 	            		<include name="CM_TC_126_1" />	 -->
+<!-- 						<include name="CM_TC_36_1" /> -->
+<!-- 						<include name="CM_TC_36_2" /> -->
+<!-- 						<include name="CM_TC_34" /> -->
+<!-- 						<include name="CM_TC_45_1" /> -->
+<!-- 						<include name="CM_TC_59_1" /> -->
+<!-- 						<include name="CM_TC_125" /> -->
+<!-- 						<include name="FNP_TC_4_1_0" /> -->
+<!-- 						<include name="FNP_TC_4_2_0" /> -->
+<!-- 						<include name="FNP_TC_4_3_0" /> -->
+<!-- 						<include name="CM_TC_21_1" /> -->
+<!-- 						<include name="CM_TC_21_2" /> -->
+<!-- 						<include name="FNP_TC_3_3_0" /> -->
+<!-- 						<include name="FNP_TC_3_4_0" /> -->
+<!-- 						<include name="FNP_TC_3_5_0" /> -->
+<!-- 						<include name="CM_TC_13_9" /> -->
+<!-- 						<include name="CM_TC_13_10" /> -->
+<!-- 						<include name="CM_TC_13_11" /> -->
+<!-- 						<include name="CM_TC_72_1_0" /> -->
+<!-- 						<include name="CM_TC_72_1_1" /> -->
+<!-- 						<include name="CM_TC_126_4" /> -->
+<!-- 						<include name="CM_TC_126_2" /> -->
+<!-- 						<include name="CM_TC_25_1" /> -->
+<!-- 						<include name="CM_TC_25_2" /> -->
+<!-- 						<include name="CM_TC_25_3" /> -->
+<!-- 						<include name="CM_TC_25_4" /> -->
+<!-- 						<include name="CM_TC_25_5" /> -->
+<!-- 						<include name="CM_TC_25_6" /> -->
+						<include name="CM_TC_42_1" />
+						<include name="CM_TC_42_5" />
+						<include name="CM_TC_42_4" />
+						<include name="CM_TC_42_2" />
+						<include name="CM_TC_22_1" />
+						<include name="CM_TC_22_2" />
+						<include name="CM_TC_90_2" />
+						<include name="CM_TC_22_6" />
+						<include name="CM_TC_22_5" />
+						<include name="CM_TC_90_6" />
+						<include name="CM_TC_90_1" />
+						<include name="CM_TC_90_5" />
+<!-- 						<include name="CM_TC_42_2_1" />	 -->
+<!-- 						<include name="CM_TC_42_3" /> -->
+<!-- 						<include name="CM_TC_42_7" /> -->
+<!-- 						<include name="CM_TC_42_6" /> -->
+<!-- 						<include name="CM_TC_84_2" /> -->
+<!-- 						<include name="CM_TC_113_4" /> -->
+<!-- 						<include name="CM_TC_79_0" /> -->
+<!-- 						<include name="CM_TC_72_0" /> -->
+<!-- 						<include name="CM_TC_73_6_0" /> -->
+<!-- 						<include name="CM_TC_73_5_0" />						 -->
+<!-- 						<include name="CM_TC_73_4_0" /> -->
+<!-- 						<include name="FNP_TC_4_4_0" /> -->
+<!-- 						<include name="CM_TC_73_6_0" /> -->
+<!-- 						<include name="CM_TC_117" /> -->
+<!-- 						<include name="CM_TC_115_0" /> -->
+<!-- 						<include name="CM_TC_119" /> -->
+<!-- 						<include name="CM_TC_10_2_1" /> -->
+<!-- 	            		<include name="CM_TC_21_1" />	 -->
+<!-- 	            		<include name="CM_TC_75_0" /> -->
+<!-- 	            		<include name="FNP_TC_84_3" /> -->
+<!-- 						<include name="FNP_TC_4_3_0" /> -->
+<!-- 	            		<include name="CM_TC_1" /> -->
+<!-- 	            		<include name="CM_TC_7" />	           -->
+<!-- 	            		<include name="CM_TC_30_1" />	 -->
+<!-- 	            		<include name="CM_TC_30_2" /> -->
+<!-- 	            		<include name="CM_TC_4" /> -->
+<!-- 	            		<include name="CM_TC_60_3" /> -->
+<!-- 	            		<include name="CM_TC_30_1_2" /> -->
+<!-- 	            		<include name="CM_TC_67_2" /> -->
+<!-- 	            		<include name="CM_TC_67_3" /> -->
+<!-- 						<include name="CM_TC_67_4" /> -->
+<!-- 						<include name="CM_TC_20_0_2" /> -->
+<!-- 						<include name="CM_TC_20_0_1" /> -->
+<!-- 						<include name="CM_TC_20_1" /> -->
+<!-- 						<include name="CM_TC_20_3" /> -->
+<!-- 						<include name="CM_TC_20_4" /> -->
+<!-- 						<include name="CM_TC_20_5" /> -->
+<!-- 						<include name="CM_TC_58_0" /> -->
+<!-- 						<include name="CM_TC_58_1" /> -->
+<!-- 						<include name="CM_TC_58_2" /> -->
+<!-- 						<include name="CM_TC_58_3" /> -->
+<!-- 						<include name="CM_TC_58_4" /> -->
+<!-- 						<include name="CM_TC_2_4" /> -->
+<!--                         <include name="CM_TC_2_5" /> -->
+<!--                         <include name="CM_TC_65_1" /> -->
+<!-- 	            		<include name="ReportsExcelVerification" /> -->
+<!-- 	            		<include name="ReportsColumnVerification" /> -->
+<!-- 						<include name="CM_TC_118" /> -->
+<!-- 						<include name="CM_TC_43_1" /> -->
+<!-- 						<include name="CM_TC_90_1" /> -->
+<!-- 						<include name="CM_TC_90_3" /> -->
+<!-- 						<include name="CM_TC_90_4" /> -->
+<!-- 						<include name="CM_TC_116_2" /> -->
+<!-- 						<include name="CM_TC_23_4" /> -->
+<!-- 						<include name="CM_TC_52_4" /> -->
+<!-- 						<include name="CM_TC_59_3" /> -->
+<!-- 						<include name="CM_TC_57_3" /> -->
+<!-- 						<include name="CM_TC_59_2" /> -->
+<!-- 						<include name="CM_TC_57_2" /> -->
+<!-- 						<include name="CM_TC_59_1" /> -->
+<!-- 						<include name="CM_TC_65_1" /> -->
+<!-- 						<include name="CM_TC_45_1" /> -->
+<!-- 						<include name="CM_TC_36_1" /> -->
+            		</methods>
+            	</class>
+<!--  			</classes> -->
+<!--        </test> -->
+
+
+			
+
+            	
+<!--             	<class name="com.inszoomapp.testscripts.FNPTestScript">			 -->
+<!-- 					<methods> -->
+<!-- 						<include name="FNP_TC_74_2" />		 -->
+<!-- 						<include name="FNP_TC_4_7" />		 -->
+<!-- 						<include name="FNP_TC_3_2" /> -->
+<!-- 						<include name="FNP_TC_3_4" /> -->
+<!-- 						<include name="CM_TC_75_2" /> -->
+<!-- 						<include name="Client_Doc_33" /> -->
+<!-- 						<include name="FNP_TC_1_0" /> -->
+<!-- 						<include name="FNP_TC_15" /> -->
+<!-- 						<include name="FNP_TC_4_4" /> -->
+<!-- 						<include name="FNP_TC_4_7" /> -->
+	<!-- 						<include name="FNP_TC_4_8" /> -->
+	<!-- 						<include name="FNP_TC_4_9" /> -->
+<!-- 						<include name="FNP_TC_50" /> -->
+<!-- 						<include name="FNP_TC_88" /> -->
+<!-- 						<include name="FNP_TC_96" /> -->
+<!-- 						<include name="CM_TC_73_1" /> -->
+<!-- 						<include name="CM_TC_73_2" /> -->
+<!-- 						<include name="CM_TC_73_3" /> -->
+<!-- 						<include name="CM_TC_73_4" /> -->
+<!-- 						<include name="CM_TC_73_5" /> -->
+<!-- 						<include name="CM_TC_73_6" /> -->
+<!-- 						<include name="CM_TC_73_8" /> -->
+<!-- 						<include name="CM_TC_75_2" /> -->
+<!-- 						<include name="FNP_TC_67" /> -->
+
+<!-- 					</methods>			 -->
+<!-- 				</class>			 -->
+<!--             </classes> -->
+<!--        </test> -->
+       
+       
+<!-- 	<test name="INSZoomTestcase Execution_HRP">     -->
+<!-- 		<classes>         -->
+
+
+<!-- 			<class name="com.inszoomapp.testscripts.HRPTestScript">                 -->
+<!-- 				<methods>  -->
+<!-- 					<include name="HRP_TC_20_1" />  -->
+<!-- 					<include name="HRP_TC_20_2" />  -->
+<!-- 					<include name="HRP_TC_34_3" />  -->
+<!-- 					<include name="HRP_TC_34_4" /> -->
+<!-- 					<include name="HRP_TC_34_5" /> -->
+<!-- 					<include name="HRP_TC_9_1" /> -->
+<!-- 					<include name="HRP_TC_9_2" /> -->
+<!-- 					<include name="HRP_TC_24_1" /> -->
+<!-- 					<include name="HRP_TC_24_2" /> -->
+<!-- 					<include name="HRP_TC_24_3" /> -->
+<!-- 					<include name="HRP_TC_24_4" /> -->
+<!-- 					<include name="HRP_TC_24_5" /> -->
+<!-- 					<include name="HRP_TC_10_2" /> -->
+<!-- 					<include name="HRP_TC_41_1" /> -->
+<!-- 					<include name="HRP_TC_41_2" /> -->
+<!-- 					<include name="HRP_TC_41_4" /> -->
+<!-- 					<include name="HRP_TC_41_5" /> -->
+<!-- 					<include name="HRP_TC_41_6" /> -->
+<!-- 					<include name="HRP_TC_25" /> -->
+<!-- 					<include name="HRP_TC_54" /> -->
+<!-- 					<include name="HRP_TC_52_6" /> -->
+<!-- 					<include name="HRP_TC_52_7" /> -->
+<!-- 					<include name="HRP_TC_52_1" /> -->
+<!-- 					<include name="HRP_TC_52_2" /> -->
+<!-- 					<include name="HRP_TC_52_4" /> -->
+<!-- 					<include name="HRP_TC_29_1" /> -->
+<!-- 					<include name="HRP_TC_29_2" /> -->
+<!-- 					<include name="HRP_TC_29_3" /> -->
+<!-- 					<include name="HRP_TC_34_2" /> -->
+<!-- 					<include name="HRP_TC_34_1" /> -->
+<!-- 					<include name="HRP_TC_11_1" /> -->
+<!-- 					<include name="HRP_TC_11_4" /> -->
+<!-- 					<include name="HRP_TC_11_5" /> -->
+<!-- 					<include name="HRP_TC_11_2" /> -->
+<!-- 					<include name="HRP_TC_11_6" /> -->
+<!-- 					<include name="HRP_TC_52_7" /> -->
+<!-- 					<include name="HRP_TC_41_7" /> -->
+<!-- 					<include name="HRP_TC_9_1" /> -->
+<!-- 					<include name="Corp_Doc_22" /> -->
+<!-- 					<include name="Corp_Doc_33" /> -->
+<!-- 					<include name="HRP_TC_25" /> -->
+<!-- 					<include name="Client_Doc_34" /> -->
+
+<!--            	</methods>              -->
+<!--        	</class>                -->
+   	  </classes>       
+	</test>
+       
+</suite>

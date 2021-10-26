@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      <parameter name="env" value="PROD" />
+      
+<!--       <parameter name="webSite" value="https://skyline.guisystems.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+<!--       <parameter name="webSite" value="https://qa.guisystems.com/" /> -->
+<!--       <parameter name="env" value="QA" /> -->
+
+<!--  	  <parameter name="webSite" value="https://entdev.guisystems.com/" /> -->
+<!--       <parameter name="env" value="QA" /> -->
+
+      <test name="INSZoomTestcase Execution">	
+		<classes>		
+			<class name="FQK.FQKTestscript">			
+				<methods>
+				
+					<include name="FQK_TC_1" />
+				
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+
+<!-- 	<test name="INSZoomTestcase Execution_FNP">	 -->
+<!-- 		<classes>		 -->
+<!-- 			<class name="com.inszoomapp.testscripts.FNPTestScript">			 -->
+<!-- 				<methods>					 -->
+					
+<!-- 					<include name = "FNP_TC_49_1" /> -->
+					
+<!-- 				</methods>			 -->
+<!-- 			</class>			 -->
+<!-- 		</classes>		 -->
+<!-- 	</test> -->
+	
+	
+<!-- 	<test name="INSZoomTestcase Execution_HRP">	 -->
+<!-- 		<classes>		 -->
+<!-- 			<class name="com.inszoomapp.testscripts.HRPTestScript">			 -->
+<!-- 				<methods>					 -->
+					
+			
+					
+<!-- 				</methods>			 -->
+<!-- 			</class>			 -->
+<!-- 		</classes>		 -->
+<!-- 	</test> -->
+	
+					
+	
+	
+</suite>

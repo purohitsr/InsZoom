@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo">
+              <span class="suite-name border-failed">Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo">
+                    <span>C:\Users\saurav.purohit\InsZoomAuto\INSZoomRegression\TestXML\P1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Demo" class="hide-methods failed suite-Demo"> (hide)</a> <!-- hide-methods failed suite-Demo -->
+                      <a href="#" panel-name="suite-Demo" class="show-methods failed suite-Demo"> (show)</a> <!-- show-methods failed suite-Demo -->
+                    </span>
+                    <div class="method-list-content failed suite-Demo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="com.inszoomapp.testscripts.ToDoTestScripts" hash-for-method="CM_TC_112_1(, chrome_WINDOWS)">CM_TC_112_1(, chrome_WINDOWS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo" class="panel Demo">
+          <div class="suite-Demo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.inszoomapp.testscripts.ToDoTestScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CM_TC_112_1(, chrome_WINDOWS)">
+                  </a> <!-- CM_TC_112_1(, chrome_WINDOWS) -->
+                  <span class="method-name">CM_TC_112_1</span>
+                  <span class="parameters">(, chrome_WINDOWS)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;onoffswitch-inner&apos; and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MT-HYD-X312&apos;, ip: &apos;192.168.173.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.support.files.Log.fail(Log.java:727)
+	at com.support.files.Utils.waitForElement(Utils.java:357)
+	at com.inszoomapp.pages.CM_ClientToDoPage.addNewToDoUsingQuestionnaireTemplateAndDocsCheckList(CM_ClientToDoPage.java:410)
+	at com.inszoomapp.testscripts.ToDoTestScripts.CM_TC_112_1(ToDoTestScripts.java:959)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Case: To-Do Questionnaire)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo-class-failed -->
+        </div> <!-- panel Demo -->
+        <div panel-name="test-xml-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\saurav.purohit\InsZoomAuto\INSZoomRegression\TestXML\P1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Demo&quot;&gt;
+  &lt;parameter name=&quot;webSite&quot; value=&quot;https://qa.guisystems.com/&quot;/&gt;
+  &lt;parameter name=&quot;deviceHost&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;sheetName&quot; value=&quot;To-dos&quot;/&gt;
+  &lt;parameter name=&quot;devicePort&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome_windows&quot;/&gt;
+  &lt;parameter name=&quot;env&quot; value=&quot;qa&quot;/&gt;
+  &lt;test name=&quot;INSZoomTestcase Execution_CaseManager&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.inszoomapp.testscripts.ToDoTestScripts&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CM_TC_112_1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.inszoomapp.testscripts.ToDoTestScripts --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- INSZoomTestcase Execution_CaseManager --&gt;
+&lt;/suite&gt; &lt;!-- Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">INSZoomTestcase Execution_CaseManager (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ToDo</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CM_TC_112_1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">case</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CM_TC_112_1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo');
+function tableData_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CM_TC_112_1')
+data.setCell(0, 2, 'com.inszoomapp.testscripts.ToDoTestScripts')
+data.setCell(0, 3, 198461);
+window.suiteTableData['Demo']= { tableData: data, tableDiv: 'times-div-Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Demo">
+              </div> <!-- times-div-Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CM_TC_112_1(, chrome_WINDOWS)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div class="test-message">&emsp;Successfully lauched the URL https://qa.guisystems.com/</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Typed asauravstg in Username textbox.</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Typed Zoom@123 in Password textbox.</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on Login Button</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on Login Button</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Time Taken to Login TO application is 11</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Agree option in the disclaimer is not present</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on Case Tab from left menu</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on Case Tab from left menu</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on Show all cases-3264627218</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on Show all cases-3264627218</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;-3264627241</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Typed KBGRIT06900-1 in in case Id search box textbox.</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on Case ID</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on Case ID</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on EQUALTO filter to search client and waited for the loader to become invisible</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on KBGRIT06900-1</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on KBGRIT06900-1</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on To Do tab</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on To Do tab</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on New To Do button</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on New To Do button</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on questionnaire icon</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on questionnaire icon</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Selected option Client15-09-2021 06:01:30 Lname15-09-2021 06:01:30 from Dropdown By Visible text</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Typed Instruction for To-Do Questionnaire in instruction textbox.</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on expand Questionnaire</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on expand Questionnaire</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on add questionnaire link</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on add questionnaire link</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Typed Automation-I-941: Application for Entrepreneur Parole in entered questionnaire name textbox.</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on add questionnaire icon</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on add questionnaire icon</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicking on unlink all</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Clicked on unlink all</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Questionnaire was not present earlier</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;&emsp;<a href=".\ScreenShot\CM_TC_112_1_1.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-result"><br><font color="green"><strong> Verified Automation-I-941: Application for Entrepreneur Parole in add to-do page </strong></font> </div>&emsp;</span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0&emsp;<a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><!--FAIL--></span>
+                <span class="reporter-method-output"><div class="test-result"><br><font color="red"><strong> Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0 </strong></font> <a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div>&emsp;</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">19 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.inszoomapp.testscripts.ToDoTestScripts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CM_TC_42_1</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_112_2_2</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_98_1</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_60_3</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_98_3</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_98_2</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_112_2_1</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_105</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_1</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_98_4</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_102_2</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_112_4</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_102_3</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_112_3</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_112_2</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_102_1</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_3</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_102_4</span>
+                <br/>
+                <span class="ignored-method-name">CM_TC_21_1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inszoomapp.testscripts.ToDoTestScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">init(org.testng.TestRunner@4c60d6e9)</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">skipTestCase</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CM_TC_112_1(, chrome_WINDOWS)</span>
+                <span class="method-start">2103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@4c60d6e9)</span>
+                <span class="method-start">200566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">200590 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

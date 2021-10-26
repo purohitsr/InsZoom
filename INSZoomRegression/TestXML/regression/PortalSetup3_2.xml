@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+      <test name="INSZoomTestcase Execution">
+      
+		<classes>
+<!-- 			<class name="com.inszoomapp.testscripts.PackageForFilingTestScripts"> -->
+			<class name="com.inszoomapp.testscripts.PortalSetupTestScript3_2">			
+				<methods>
+				<include name = "PreRequisite" />
+				<include name = "PreRequisiteData" />
+						
+					<include name = "PS3_2_TC_1" />
+					<include name = "PS3_2_TC_2" />
+					<include name = "PS3_2_TC_3" />
+					<include name = "PS3_2_TC_4" />
+					<include name = "PS3_2_TC_5" />
+					<include name = "PS3_2_TC_6" />
+					<include name = "PS3_2_TC_7" />
+					<include name = "PS3_2_TC_8" />
+
+					<include name = "PS3_2_TC_10" />
+
+					<include name = "PS3_2_TC_12" />
+					<include name = "PS3_2_TC_13" />
+					<include name = "PS3_2_TC_14" />
+					<include name = "PS3_2_TC_15" />
+					<include name = "PS3_2_TC_16" />
+					<include name = "PS3_2_TC_16_1" />
+
+					<include name = "PS3_2_TC_18" />
+					<include name = "PS3_2_TC_19" />
+					<include name = "PS3_2_TC_20" />
+					<include name = "PS3_2_TC_21" />
+					<include name = "PS3_2_TC_22" />
+					<include name = "PS3_2_TC_23" />
+					<include name = "PS3_2_TC_24" />
+					<include name = "PS3_2_TC_25" />
+					<include name = "PS3_2_TC_25_1" />
+
+					<include name = "PS3_2_TC_27" />
+					<include name = "PS3_2_TC_28" />
+					<include name = "PS3_2_TC_29" />
+					<include name = "PS3_2_TC_30" />
+					<include name = "PS3_2_TC_31" />
+
+					<include name = "PS3_2_TC_32" />
+					<include name = "PS3_2_TC_33" />
+					<include name = "PS3_2_TC_33_1" />
+
+					<include name = "PS3_2_TC_35" />
+					<include name = "PS3_2_TC_35_1" />
+
+					<include name = "PS3_2_TC_37" />
+					<include name = "PS3_2_TC_38" />
+					<include name = "PS3_2_TC_39" />
+					<include name = "PS3_2_TC_40" />
+					<include name = "PS3_2_TC_41" />
+
+					<include name = "PS3_2_TC_43" />
+					<include name = "PS3_2_TC_43_1" />
+
+					<include name = "PS3_2_TC_45" />
+					<include name = "PS3_2_TC_46" />
+					<include name = "PS3_2_TC_47" />
+					<include name = "PS3_2_TC_48" />
+					<include name = "PS3_2_TC_50" />
+					<include name = "PS3_2_TC_50_1" />
+
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>

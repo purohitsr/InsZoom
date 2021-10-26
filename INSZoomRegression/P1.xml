@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="Demo" verbose="3" parallel="tests" thread-count="2"> -->
+<suite name="Demo" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+<parameter name="sheetName" value="Inszoom" />
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+       <test name="INSZoomTestcase Execution_CaseManager">
+            <classes>
+
+            	<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+            		<methods>
+            		   <!--  <include name="CM_TC_20_0_2" />
+            		    <include name="CM_TC_20_0_1" />
+	            		<include name="CM_TC_20_1" />
+	            		<include name="CM_TC_20_3" /> -->
+	            		
+	            		<!-- <include name="TC_29" />
+	            		<include name="TC_34" /> -->
+	            	<!-- 	<include name="TC_29" />
+	            		<include name="TC_19" />
+	            		<include name="TC_24" /> -->
+	            		
+	            		<!-- <include name="TC_47" /> -->
+	            		
+	            		<!-- <include name="PS_TC_35" />
+                        <include name="CM_TC_20_0_1" />
+                        <include name="CM_TC_20_1" />
+                        <include name="CM_TC_20_3" /> -->
+                        <!-- <include name="CM_TC_43_1" />
+                        <include name="CM_TC_43_2" />
+                        <include name="CM_TC_43_5" />
+                        <include name="CM_TC_43_6" /> -->
+                        <include name="CM_TC_43_1" />
+                       
+                        <!-- <include name="CM_TC_20_5" />
+	            		<include name="CM_TC_43_1" />
+	            		<include name="CM_TC_43_2" />
+	            		<include name="CM_TC_43_5" />
+	            		<include name="CM_TC_43_6" />
+	            		<include name="CM_TC_43_8" /> -->
+	            		
+	            		
+	            		
+	            		
+	            		<!-- <include name="CM_TC_20_5" /> -->
+	            		
+	            		<!--<include name="CM_TC_20_0_2" />
+	            		<include name="CM_TC_20_0_1" />
+            		    <include name="CM_TC_20_1" />
+	            		<include name="CM_TC_57_1" />
+	            		<include name="CM_TC_57_2" />
+	            		<include name="CM_TC_57_3" />
+	            		<include name="CM_TC_57_4" /> -->
+	            		
+	            		<!-- <include name="CM_TC_20_0_1" />
+	            		<include name="CM_TC_20_1" />
+	            		<include name="CM_TC_21_1" />-->
+	            		<!-- <include name="CM_TC_36_1" />
+	            		<include name="CM_TC_36_2" />
+            		    <include name="CM_TC_34" /> -->
+	            		
+            		</methods>
+            	</class>
+            	
+
+   	        </classes>       
+	  </test>
+	 <!--  <test name="INSZoomTestcase Execution_CaseManager1">
+            <classes>
+
+            	<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+            		<methods>
+	            		<include name="CM_TC_1" />
+            		</methods>
+            	</class>
+   	        </classes>       
+	  </test> -->
+       
+</suite>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Org Settings" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Settings_Enterprise" />
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" /> 
+      <parameter name="env" value="QA" />
+
+	<test name="Emails 1">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name="Settings_Email_2_1_0" />	
+					<include name="Settings_Email_2_1_1" />	
+					<include name="Settings_Email_2_1_2" />	
+					<include name="Settings_Email_1_1_0" />
+	                <include name="Settings_Email_1_1_1" />
+	                <include name="Settings_Email_1_1_2" />
+	                <include name="Settings_Email_1_1_3" />
+	                <include name="Settings_Email_1_1_4" />
+	                <include name="Settings_Email_3_1_0" />
+                  	<include name="Settings_Email_3_1_1" />
+                  	<include name="Settings_Email_4_1_0" />
+                    <include name="Settings_Email_4_1_1" />
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>
+	
+	<test name="Emails 2">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name = "Settings_Email_2_2_0" />	
+					<include name = "Settings_Email_2_2_1" />
+					<include name = "Settings_Email_2_2_2" />	
+					<include name = "Settings_Email_1_2_0" />
+       	            <include name = "Settings_Email_1_2_1" />
+                    <include name = "Settings_Email_1_2_2" />
+                    <include name = "Settings_Email_1_2_3" />
+                    <include name = "Settings_Email_1_2_4" />
+                    <include name = "Settings_Email_4_2_0" />
+                    <include name = "Settings_Email_4_2_1" />
+                    <include name = "Settings_Email_3_2_0" />
+                	<include name = "Settings_Email_3_2_1" />
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>
+	
+	<test name="Emails 3">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name = "Settings_Email_2_3_0" />	
+					<include name = "Settings_Email_2_3_1" />
+					<include name = "Settings_Email_2_3_2" />	
+					<include name = "Settings_Email_4_3_0" />
+                    <include name = "Settings_Email_4_3_1" />
+                    <include name = "Settings_Email_1_3_0" />
+                    <include name = "Settings_Email_1_3_1" />
+                    <include name = "Settings_Email_1_3_2" />
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>
+				
+	<test name="Emails 4">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name="Settings_Email_1_4_0" />
+                   	<include name="Settings_Email_1_4_1" />
+                   	<include name="Settings_Email_1_4_2" />
+					<include name="Settings_Email_2_4_0" />	
+					<include name="Settings_Email_2_4_1" />	
+					<include name="Settings_Email_2_4_2" />
+					<include name="Settings_Email_4_4_0" />
+                    <include name="Settings_Email_4_4_1" />	
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>		
+	
+	<test name="Forms 1">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name = "Settings_Forms_1_0" />
+					<include name = "Settings_Forms_1_1" />
+					<include name = "Settings_Forms_1_2" />
+					<include name="Settings_Forms_2_1_0" />
+					<include name="Settings_Forms_2_1_1" />
+					<include name="Settings_Forms_4_1_0" />
+                    <include name="Settings_Forms_4_1_1" />
+                    <include name="Settings_Forms_6_1_0" />
+                    <include name="Settings_Forms_6_1_1" />
+                    <include name="Settings_Forms_7_1_0" />
+              		<include name="Settings_Forms_7_1_1" />
+                    <include name="Settings_Forms_8_1_0" />
+                    <include name="Settings_Forms_8_1_1" />
+					<include name="Settings_Forms_9_0" />
+					<include name="Settings_Forms_9_1" />
+					<include name="Settings_Security_1" />
+					<include name="Settings_Security_2" />
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>	
+
+					
+	<test name="Forms 2">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>					
+					<include name="Settings_Forms_2_2_0" />
+					<include name="Settings_Forms_2_2_1" />
+<!-- 					<include name = "Settings_Forms_4_2_0" /> -->
+<!--                     <include name = "Settings_Forms_4_2_1" /> -->
+                    <include name = "Settings_Forms_6_2_0" />
+                    <include name = "Settings_Forms_6_2_1" />
+                    <include name = "Settings_Forms_7_2_0" />
+                    <include name = "Settings_Forms_7_2_1" />
+                    <include name = "Settings_Forms_8_2_0" />
+                    <include name = "Settings_Forms_8_2_1" />
+           		</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>		
+                                    
+ 	<test name="Forms 3">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>                                   
+                    <include name = "Settings_Forms_4_3_0" />
+                    <include name = "Settings_Forms_4_3_1" />
+            	</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>	
+                                    
+ 	<test name="Forms 4">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>                                   
+					<include name = "Settings_Forms_4_4_0" />
+                    <include name = "Settings_Forms_4_4_1" />
+            	</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>	
+	
+	<test name="Security">
+		<classes>
+           	<class name="com.inszoomapp.testscripts.OrgSettingsTestScript">
+				<methods>
+					<include name="Settings_Security_1" />
+					<include name="Settings_Security_2" />
+				</methods>             
+   	    	</class>               
+   	  	</classes>       
+	</test>	
+	
+</suite>

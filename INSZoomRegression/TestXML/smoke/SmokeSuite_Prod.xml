@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="Demo" verbose="3" parallel="tests" thread-count="2"> -->
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      
+      <parameter name="env" value="Prod" />
+
+       <test name="INSZoomTestcase Execution_Smoke">
+            <classes>
+                  <class name="com.inszoomapp.smoke.Phase1SmokeTestScript">
+                        <methods>
+                              <include name="testCaseManagerCorporationPage" />  
+                              <include name="testCaseManagerClientPages" />
+                              
+                              <include name="testCaseManagerCasePages" />
+                              <include name="testCaseManagerCaseReportsPages" />
+                              <include name="testCaseManagerCalendarPages" /> 
+                              <include name="testCaseManagerSettingsPages" />
+                              <include name="testKnowledgeBasePages" />
+                              <include name="testHRPortalSmoke" />
+                              <include name="testFNPortalSmoke" />
+                              
+                        </methods>
+                  </class>
+            </classes>
+      </test>   
+      
+</suite>

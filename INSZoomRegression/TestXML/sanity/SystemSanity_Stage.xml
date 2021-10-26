@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SS" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Inszoom" />
+
+      <parameter name="webSite" value="https://zoomstg.guisystems.com/" />
+      <parameter name="env" value="STAGE" />
+
+       <test name="INSZoomTestcase Execution_CaseManager">
+            <classes>
+<!--             	<class name="com.inszoomapp.testscripts.AppUtils"></class> -->
+            	<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+            		<methods>
+            		
+            		
+	            		<include name="CM_TC_1" />
+	            		<include name="CM_TC_3" />	          
+<!-- 	            		<include name="CM_TC_30_1" />	 -->
+<!-- 	            		<include name="CM_TC_30_2" /> -->
+	            		<include name="CM_TC_4" />
+	            		<include name="CM_TC_60_3" />
+<!-- 	            		<include name="CM_TC_30_1_2" /> -->
+<!-- 	            		<include name="CM_TC_67_2" /> -->
+<!-- 	            		<include name="CM_TC_67_3" /> -->
+<!-- 						<include name="CM_TC_67_4" /> -->
+						
+<!-- 	************************* Passport **************************** -->
+						<include name="CM_TC_10_1" />
+						<include name="CM_TC_10_2" />
+						<include name="CM_TC_10_2_1" />
+						<include name="CM_TC_10_3" />
+						
+						
+						<include name="CM_TC_115" />
+						<include name="CM_TC_115_1" />
+						<include name="CM_TC_115_2" />
+						<include name="CM_TC_115_3" />
+						<include name="CM_TC_116" />
+						<include name="CM_TC_116_1" />
+						<include name="CM_TC_116_2" />
+						<include name="CM_TC_117" />
+						<include name="CM_TC_118" />
+						<include name="CM_TC_119" />
+						
+						
+						<include name="CM_TC_11_1" />
+						<include name="CM_TC_11_2" />
+						
+						
+						<include name="CM_TC_121" />
+						<include name="CM_TC_122" />
+						<include name="CM_TC_123" />
+						<include name="CM_TC_124" />
+						
+						
+						<include name="CM_TC_12_1" />
+						<include name="CM_TC_12_2" />
+						
+						
+						<include name="CM_TC_13_1" />
+						<include name="CM_TC_13_2" />
+						<include name="CM_TC_13_3" />
+						<include name="CM_TC_13_4" />
+						<include name="CM_TC_13_5" />
+						<include name="CM_TC_13_6" />
+						<include name="CM_TC_13_7" />
+						<include name="CM_TC_13_8" />
+						
+						<include name="CM_TC_13_9" />
+						<include name="CM_TC_13_10" />
+						<include name="CM_TC_13_11" />
+						
+						
+						<include name="CM_TC_14_1" />
+						<include name="CM_TC_14_2" />
+						<include name="CM_TC_14_3" />
+						<include name="CM_TC_14_4" />
+						
+						
+						<include name="CM_TC_16_1" />
+						<include name="CM_TC_16_2" />
+						
+						
+						<include name="CM_TC_17_1" />
+						<include name="CM_TC_17_2" />
+						<include name="CM_TC_17_3" />
+						
+						
+<!-- 						<include name="CM_TC_18_1" /> -->
+<!-- 						<include name="CM_TC_18_2" /> -->
+						
+						
+						<include name="CM_TC_19_1" />
+						<include name="CM_TC_19_2" />
+						<include name="CM_TC_19_3" />
+						
+						
+						<include name="CM_TC_20_0_2" />
+						<include name="CM_TC_20_0_1" />
+						<include name="CM_TC_20_1" />
+						<include name="CM_TC_20_3" />
+						<include name="CM_TC_20_4" />
+						<include name="CM_TC_20_5" />
+						
+						
+						<include name="CM_TC_21_1" />
+						<include name="CM_TC_21_2" />
+						
+						
+						<include name="CM_TC_22_1" />
+                        <include name="CM_TC_22_2" />
+                        <include name="CM_TC_22_3" />
+                        <include name="CM_TC_22_4" />                        
+                        <include name="CM_TC_22_5" />
+                        <include name="CM_TC_22_6" />
+                        <include name="CM_TC_22_7" />
+                        <include name="CM_TC_22_8" />
+                        
+                        
+                        <include name="CM_TC_23_2" /> 
+                        <include name="CM_TC_23_4" /> 
+                        
+                        
+                        <include name="CM_TC_26_1" />
+						<include name="CM_TC_26_2" />
+<!-- 						<include name="CM_TC_26_3" /> -->
+                        
+                        
+                       <include name="CM_TC_27_1" />
+						<include name="CM_TC_27_2" />
+						<include name="CM_TC_27_3" />
+						<include name="CM_TC_27_4" />
+						<include name="CM_TC_27_5" />
+                        
+                        
+                       <include name="CM_TC_31_1" />
+						<include name="CM_TC_31_2" />
+						
+						
+						<include name="CM_TC_32_1" />
+						<include name="CM_TC_32_2" />
+						
+						
+						<include name="CM_TC_33" />
+						
+						
+						<include name="CM_TC_35_1" />
+                        <include name="CM_TC_35_3" />           
+                        <include name="CM_TC_35_4" />
+                        
+                        
+                        <include name="CM_TC_36_1" />
+						<include name="CM_TC_36_2" />
+						
+						
+						<include name="CM_TC_39" />
+						
+						
+<!-- 						<include name="CM_TC_41_1" /> -->
+						
+						
+						<include name="CM_TC_42_1" />
+						<include name="CM_TC_42_2" />
+						<include name="CM_TC_42_2_1" />
+						<include name="CM_TC_42_3" />
+						<include name="CM_TC_42_4" />
+						<include name="CM_TC_42_5" />
+						<include name="CM_TC_42_6" />
+						<include name="CM_TC_42_7" />
+						<include name="CM_TC_42_8" />
+						<include name="CM_TC_42_9" />
+	
+                        <include name="CM_TC_47_0" />
+                        <include name="CM_TC_47_1" />
+                     	<include name="CM_TC_47_2" />
+                     	<include name="CM_TC_47_3" />
+                     	<include name="CM_TC_47_4" />
+                     	
+                     	
+                     	<include name="CM_TC_48_1" />
+						<include name="CM_TC_48_2" />
+						<include name="CM_TC_48_3" />
+						<include name="CM_TC_48_4" />
+						<include name="CM_TC_48_5" />
+						
+						
+						<include name="CM_TC_49_1" />
+						<include name="CM_TC_49_2" />
+						<include name="CM_TC_49_3" />
+						<include name="CM_TC_49_4" />
+						<include name="CM_TC_49_5" />
+						<include name="CM_TC_49_6" />
+						
+						
+						<include name="CM_TC_50_1" />
+<!-- 						<include name="CM_TC_50_2" /> -->
+						<include name="CM_TC_50_3" />
+						
+						
+						<include name="CM_TC_51_1" />
+						<include name="CM_TC_51_2" />
+						<include name="CM_TC_51_3" />
+						<include name="CM_TC_51_4" />
+						<include name="CM_TC_51_5" />
+						
+						
+						<include name="CM_TC_60_4" />
+						<include name="CM_TC_60_5" />
+						<include name="CM_TC_60_6" />
+						
+						
+						<include name="CM_TC_7" />
+						
+						
+						<include name="CM_TC_72_0" />
+						<include name="CM_TC_72_1_0" />
+						<include name="CM_TC_72_1_1" />
+						
+						
+						<include name="CM_TC_73_4_0" />
+						<include name="CM_TC_73_5_0" />
+						<include name="CM_TC_73_6_0" />
+						
+						
+						<include name="CM_TC_75_0" />
+						
+						
+						<include name="CM_TC_8" />
+						
+						
+						<include name="CM_TC_81_0" />
+						
+						
+						<include name="CM_TC_90_1" />
+                        <include name="CM_TC_90_2" />
+                        <include name="CM_TC_90_3" />
+                        <include name="CM_TC_90_4" />
+                        <include name="CM_TC_90_5" />
+                        <include name="CM_TC_90_6" />
+                        <include name="CM_TC_90_7" />
+                        <include name="CM_TC_90_8" />
+                        
+                        
+                       	<include name="FNP_TC_4_1_0" /> 
+						<include name="FNP_TC_4_2_0" />
+						<include name="FNP_TC_4_3_0" />
+						<include name="FNP_TC_3_3_0" />
+						<include name="FNP_TC_3_4_0" />
+						<include name="FNP_TC_3_5_0" />
+						<include name="FNP_TC_4_4_0" />
+						<include name="FNP_TC_4_5_0" />
+						<include name="FNP_TC_4_6_0" />
+						
+						
+						<include name="CM_TC_119_0" />
+						
+						
+						<include name="CM_TC_120" />
+						
+						
+						<include name="CM_TC_24_1" />
+						<include name="CM_TC_24_2" />
+						<include name="CM_TC_24_3" />
+						<include name="CM_TC_24_4" />
+						<include name="CM_TC_24_5" />
+						<include name="CM_TC_24_6" />
+						
+						
+						<include name="CM_TC_28_1" />
+						<include name="CM_TC_28_2" />
+						<include name="CM_TC_28_3" />  
+						<include name="CM_TC_28_4" />
+                        
+                        
+						<include name="CM_TC_25_1" />
+						<include name="CM_TC_25_2" /> 
+						<include name="CM_TC_25_3" />
+						<include name="CM_TC_25_4" /> 
+						<include name="CM_TC_25_5" /> 
+						<include name="CM_TC_25_6" />
+					
+						
+						<include name="CM_TC_45_1" />
+						
+						
+						<include name="CM_TC_53_1" />
+						<include name="CM_TC_53_2" />
+						<include name="CM_TC_53_3" />
+						<include name="CM_TC_53_4" />
+
+
+						<include name="CM_TC_55_3" />
+						<include name="CM_TC_55_4" />
+						<include name="CM_TC_55_5" />
+						<include name="CM_TC_55_6" />
+
+						
+						<include name="CM_TC_34" />
+						
+						
+						<include name="CM_TC_59_1" />
+						<include name="CM_TC_59_2" />
+						<include name="CM_TC_59_3" />
+						<include name="CM_TC_59_4" />
+						
+						
+						<include name="CM_TC_52_4" />
+						
+						
+						<include name="CM_TC_57_1" />
+						<include name="CM_TC_57_2" />
+						<include name="CM_TC_57_3" />
+						<include name="CM_TC_57_4" />
+						
+						
+						<include name="CM_TC_2_4" />
+                        <include name="CM_TC_2_5" />
+                        
+                        
+                        <include name="CM_TC_65_1" />
+                        
+                        
+                        <include name="CM_TC_58_0" />
+						<include name="CM_TC_58_1" />
+						<include name="CM_TC_58_2" />
+						<include name="CM_TC_58_3" />
+						<include name="CM_TC_58_4" />
+						
+						
+						<include name="CM_TC_105" />
+						
+						
+						<include name="CM_TC_61_1" />
+                        <include name="CM_TC_61_2" />
+                        <include name="CM_TC_61_3" />
+                        <include name="CM_TC_61_4" />
+                        <include name="CM_TC_61_5" />
+                        <include name="CM_TC_61_6" />
+                        <include name="CM_TC_61_7" />
+                        <include name="CM_TC_61_8" />
+                        <include name="CM_TC_61_9" />
+                        <include name="CM_TC_61_10" />
+                        
+                        
+<!--                         <include name="CM_TC_54_1" /> -->
+<!--                         <include name="CM_TC_54_3" /> -->
+<!--                         <include name="CM_TC_54_4" /> -->
+<!--                         <include name="CM_TC_54_5" /> -->
+<!--                         <include name="CM_TC_54_6" /> -->
+
+						<include name="CM_TC_125" />
+						<include name="CM_TC_126_1" />
+						<include name="CM_TC_127" />
+						<include name="CM_TC_128" />
+						<include name="CM_TC_129" />
+						<include name="CM_TC_130" />
+						<include name="CM_TC_131" />
+						<include name="CM_TC_132" />
+						
+						<include name="CM_TC_43_1" /> 
+                        <include name="CM_TC_43_2" />
+                        <include name="CM_TC_43_5" />
+                        <include name="CM_TC_43_6" />
+                        <include name="CM_TC_43_8" />
+                        
+                        <include name="CM_TC_40_0" />
+                        <include name="CM_TC_40_1" />
+                        <include name="CM_TC_40_2" />
+					
+            		</methods>
+            	</class>
+
+   	  </classes>       
+	</test>
+       
+</suite>

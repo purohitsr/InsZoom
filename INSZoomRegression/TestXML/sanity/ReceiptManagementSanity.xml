@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Receipt maangement Test script" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+      <test name="INSZoomTestcase Execution">
+     	<groups>
+        	<run>
+	            <include name="receiptManagement" />
+	        </run>
+	    </groups>
+		<classes>
+			<class name="com.inszoomapp.testscripts.ReceiptManagementTestScript">			
+				<methods>
+<!-- 				<include name = "RM_TC_21" /> -->
+					<include name = "RM_TC_33" />
+					<include name = "RM_TC_34" />
+					<include name = "RM_TC_1" />
+					<include name = "RM_TC_29" />
+					<include name = "RM_TC_3" />
+					<include name = "RM_TC_2" />
+					<include name = "RM_TC_6" />
+					<include name = "RM_TC_9" />
+					<include name = "RM_TC_8" />
+					<include name = "RM_TC_5" />
+					
+					<include name = "RM_TC_28" />
+					<include name = "RM_TC_4" />
+					<include name = "RM_TC_27" />
+					<include name = "RM_TC_12" />
+					<include name = "RM_TC_13" />
+					<include name = "RM_TC_24" />
+					<include name = "RM_TC_25" />
+					<include name = "RM_TC_26" />
+					<include name = "RM_TC_30" />
+					<include name = "RM_TC_10" />
+					
+					<include name = "RM_TC_11" />
+					<include name = "RM_TC_14" />
+					<include name = "RM_TC_15" />
+					<include name = "RM_TC_19" />
+					<include name = "RM_TC_20" />
+					<include name = "RM_TC_22" />
+					<include name = "RM_TC_31" />
+					<include name = "RM_TC_32" />
+					<include name = "RM_TC_16" />
+					<include name = "RM_TC_17" />
+					
+					<include name = "RM_TC_18" />
+					<include name = "RM_TC_23" />
+					
+					<include name = "RM_TC_7" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

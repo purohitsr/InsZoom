@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+	<parameter name="deviceHost" value="localhost"/>
+	<parameter name="devicePort" value="4444"/>
+	<parameter name="browserName" value="chrome_windows"/>
+
+	<parameter name="webSite" value="https://global.inszoom.com" />
+	
+
+
+	<test name="Pop Up Check">
+		<classes>
+			<class name="popupCheck.Script">
+			
+			</class>
+		</classes>
+	</test>
+</suite>

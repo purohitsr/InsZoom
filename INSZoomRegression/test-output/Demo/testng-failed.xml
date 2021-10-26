@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Demo]">
+  <parameter name="webSite" value="https://qa.guisystems.com/"/>
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="sheetName" value="To-dos"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="chrome_windows"/>
+  <parameter name="env" value="qa"/>
+  <test name="INSZoomTestcase Execution_CaseManager(failed)">
+    <classes>
+      <class name="com.inszoomapp.testscripts.ToDoTestScripts">
+        <methods>
+          <include name="skipTestCase"/>
+          <include name="afterSuite"/>
+          <include name="CM_TC_112_1" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.inszoomapp.testscripts.ToDoTestScripts -->
+    </classes>
+  </test> <!-- INSZoomTestcase Execution_CaseManager(failed) -->
+</suite> <!-- Failed suite [Demo] -->

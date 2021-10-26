@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      <parameter name="env" value="PROD" />
+      
+<!--       <parameter name="webSite" value="https://skyline.guisystems.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+<!--  	  <parameter name="webSite" value="https://entdev.guisystems.com/" /> -->
+<!--       <parameter name="env" value="DEV" /> -->
+
+      <test name="XSS Security Execution">	
+		<classes>		
+			<class name="securityXSS.SecurityXSSTestscript">			
+				<methods>
+					<include name="XSS_TC_3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

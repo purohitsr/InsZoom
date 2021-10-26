@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FNP Sanity" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="FNP" />
+
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      
+	<test name="FNP Sanity">
+		<classes>
+          	<class name="com.inszoomapp.testscripts.DocumentManagementTestScript">			
+				<methods>
+					<include name="Client_Doc_3_1" />
+					<include name="Client_Doc_21" />
+				</methods>
+			</class>
+			<class name="com.inszoomapp.testscripts.CaseManagerTestScript">
+       			<methods>
+       				<include name="CM_TC_21_2" />
+       				<include name="CM_TC_47_7" />
+       				<include name="CM_TC_75_0" />
+					<include name="CM_TC_84_2" />
+					<include name="FNP_TC_84_3" />
+					<include name="FNP_TC_4_6_0" />
+					<include name="FNP_TC_3_4_0" />
+					<include name="FNP_TC_3_3_0" />
+					<include name="FNP_TC_3_5_0" />
+					<include name="FNP_TC_4_1_0" />
+					<include name="FNP_TC_4_2_0" />
+					<include name="FNP_TC_4_3_0" />
+					<include name="FNP_TC_4_4_0" />
+					<include name="FNP_TC_4_5_0" />
+				</methods>
+			</class>
+           	<class name="com.inszoomapp.testscripts.FNPTestScript">			
+				<methods>
+					<include name="FNP_TC_1_0" />
+					<include name="FNP_TC_15" />
+					<include name="FNP_TC_3_1" />
+					<include name="FNP_TC_3_3" />
+					<include name="FNP_TC_3_4" />
+					<include name="FNP_TC_3_5" />
+					<include name="FNP_TC_3_2" />
+					<include name="FNP_TC_4_1" />
+					<include name="FNP_TC_4_2" />
+					<include name="FNP_TC_4_3" />
+					<include name="FNP_TC_4_7" />
+					<include name="FNP_TC_4_4" />
+					<include name="FNP_TC_4_6" />
+					<include name="FNP_TC_4_5" />
+					<include name="FNP_TC_4_8" />
+					<include name="FNP_TC_4_9" />
+					<include name="FNP_TC_74_2" />
+					<include name="CM_TC_75_2" />
+					<include name="CM_TC_75_3" />
+					<include name="CM_TC_75_4" />
+					<include name="CM_TC_75_8" />
+					<include name="CM_TC_75_9" />
+					<include name="CM_TC_75_5" />
+					<include name="CM_TC_75_6" />
+					<include name="CM_TC_75_7" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+</suite>
+					

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PortalSetup_Execution" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="PortalSetup" />
+
+ <!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      
+<!--       <parameter name="webSite" value="https://zoomstg.guisystems.com/" /> -->
+<!--       <parameter name="env" value="STAGE" /> -->
+        	
+	    <test name="PortalSetup"> 
+		    <groups>
+	        	<run>
+		            <include name="portalSetup" />
+		        </run>
+		    </groups>
+		    <classes>
+		    	<class name="com.inszoomapp.testscripts.PortalSetupTestScripts" />
+		    </classes>
+		</test>
+		
+
+</suite>

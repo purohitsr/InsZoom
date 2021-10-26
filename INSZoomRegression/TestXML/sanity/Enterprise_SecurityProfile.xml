@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      <parameter name="edition" value="Enterprise" />
+      
+      <test name="INSZoomTestcase Execution">
+      
+      
+		<classes>
+			<class name="com.inszoomapp.testscripts.SecurityProfileEnabledTestScript">			
+				<methods>
+				<include name = "AR_SE_TC_1" />
+				<include name = "AR_SE_TC_1_1" />
+				<include name = "AR_SE_TC_2" /> 
+				<include name = "AR_SE_TC_3" /> 
+				<include name = "AR_SE_TC_7" /> 
+				<include name = "AR_SE_TC_8" />
+				<include name = "AR_SE_TC_9" />
+				<include name = "AR_SE_TC_25" />
+				<include name = "AR_SE_TC_26" />
+				<include name = "AR_SE_TC_29" />
+				<include name = "AR_SE_TC_30" />
+				<include name = "AR_SE_TC_31" /> 
+				 
+				<include name = "AR_SE_TC_66" />
+				<include name = "AR_SE_TC_67" />
+				<include name = "AR_SE_TC_68" />
+				<include name = "AR_SE_TC_69" />
+				
+				<include name = "AR_SE_TC_72" />
+				<include name = "AR_SE_TC_73" />
+					
+				<include name = "AR_SE_TC_74" />
+				<include name = "AR_SE_TC_75" /> 
+				
+				<include name = "AR_SE_TC_83" />
+				<include name = "AR_SE_TC_84" />
+				<include name = "AR_SE_TC_85" />
+				<include name = "AR_SE_TC_88" /> 
+				
+				<include name = "AR_SE_TC_45" />
+				<include name = "AR_SE_TC_46" /> 
+				<include name = "AR_SE_TC_47" /> 
+				
+				<include name = "AR_SE_TC_50" />
+				<include name = "AR_SE_TC_51" /> 
+				<include name = "AR_SE_TC_52" />
+				
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      <parameter name="edition" value="Standard" />
+      
+      <test name="INSZoomTestcase Execution">
+      
+      
+		<classes>
+			<class name="com.inszoomapp.testscripts.AccessRightsTestScript">			
+				<methods>
+					<include name = "AR_TC_01" />
+					
+					<include name = "AR_TC_43" />
+					<include name = "AR_TC_44" />
+					<include name = "AR_TC_45" />
+					<include name = "AR_TC_46" />
+					<include name = "AR_TC_47" />
+					
+					<include name = "AR_TC_51" />
+					<include name = "AR_TC_52" /> 
+					<include name = "AR_TC_53" />
+					<include name = "AR_TC_54" />
+					<include name = "AR_TC_55" />
+					
+					<include name = "AR_TC_59_Standard" />
+					<include name = "AR_TC_60" />
+					<include name = "AR_TC_61" />
+					<include name = "AR_TC_62" />
+					<include name = "AR_TC_63" />
+					<include name = "AR_TC_64" />
+
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>

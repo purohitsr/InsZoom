@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="Demo" verbose="3" parallel="tests" thread-count="2"> -->
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="sheetName" value="Inszoom" />
+      <parameter name="env" value="QA" />
+
+		<test name="INSZoomTestcase Execution_Smoke">
+            <classes>
+                  <class name="com.inszoomapp.testscripts.TestScript">
+                        <methods>
+                            
+                              <!-- <include name="CM_TC_22_1" />  -->
+                              <include name="CM_TC_22_2" />
+                              
+                        </methods>
+                  </class>
+            </classes>
+      </test>   
+		
+
+</suite>

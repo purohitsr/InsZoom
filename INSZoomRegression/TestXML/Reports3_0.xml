@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Reports 3.0" verbose="10">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      <parameter name="env" value="PROD" />
+      
+<!--       <parameter name="webSite" value="https://entdev.guisystems.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+
+       <test name="Reports 3.0">
+            <classes>
+
+            	<class name="com.inszoomapp.testscripts.Reports3_0TestScript">
+            		<methods>            		
+
+<!-- 	            		<include name="ReportsExcelVerification" /> -->
+<!-- 	            		<include name="CV_AllOpenCases" /> -->
+<!-- 	            		<include name="CV_WaitingForDecision" /> -->
+<!-- 	            		<include name="CV_NewCases" /> -->
+<!-- 	            		<include name="CV_PhasesReport" /> -->
+<!-- 	            		<include name="CV_CasesFiled" /> -->
+<!-- 	            		<include name="CV_RFEReceived" /> -->
+<!-- 	            		<include name="CV_RFESubmitted" /> -->
+<!-- 	            		<include name="CV_Approved" /> -->
+<!-- 	            		<include name="CV_Denied" /> -->
+<!-- 						<include name="CV_Withdrawn" /> -->
+<!-- 						<include name="CV_PermPieChart" /> -->
+<!-- 						<include name="CV_Prospects" /> -->
+<!-- 						<include name="CV_CaseExpiration" /> -->
+<!-- 						<include name="CV_ElligibilityAsPerVisaBulletin" /> -->
+<!-- 						<include name="CV_LifeCycle" /> -->
+<!-- 						<include name="CV_CaseStatus" /> -->
+<!-- 						<include name="CV_PriorityDates" /> -->
+<!-- 						<include name="CV_J1" /> -->
+<!-- 						<include name="CV_CaseLCA" /> -->
+<!-- 						<include name="CV_PermReport" /> -->
+<!-- 						<include name="CV_H1BReport" /> -->
+<!-- 						<include name="CV_NIVReport" /> -->
+<!-- 						<include name="CV_IVReport" /> -->
+<!-- 						<include name="CV_LoginStatistics" /> -->
+<!-- 						<include name="CV_CorpUser" /> -->
+<!-- 						<include name="CV_Citizenship" /> -->
+<!-- 						<include name="CV_CaseRequest" /> -->
+<!-- 						<include name="CV_EConsent" /> -->
+<!-- 						<include name="CV_EmployeeDetails" /> -->
+<!-- 						<include name="CV_InvoiceReportCorporation" /> -->
+<!-- 						<include name="CV_InvoiceReportInvoice" /> -->
+<!-- 						<include name="CV_WorkSummaryCase" /> -->
+<!-- 						<include name="CV_WorkSummaryCorporation" /> -->
+<!-- 						<include name="CV_WorkSummaryClient" /> -->
+<!-- 						<include name="CV_RFEDue" /> -->
+<!-- 						<include name="CV_StepsAndReminders" /> -->
+<!-- 						<include name="CV_Appointment" /> -->
+<!-- 						<include name="CV_Interviews" /> -->
+<!-- 						<include name="CV_CourtDates" /> -->
+<!-- 						<include name="CV_TaskToDo" /> -->
+<!-- 						<include name="CV_ClientDocExpiration" /> -->
+<!-- 						<include name="CV_OpenCaseByType" /> -->
+<!-- 						<include name="CV_GreencardProcess" /> -->
+<!-- 						<include name="EV_TC_1" /> -->
+<!-- 						<include name="EV_TC_2" /> -->
+<!-- 						<include name="EV_TC_3" /> -->
+<!-- 						<include name="EV_TC_4" /> -->
+<!-- 						<include name="EV_TC_5" /> -->
+<!-- 						<include name="EV_TC_6" /> -->
+<!-- 						<include name="EV_TC_7" /> -->
+<!-- 						<include name="EV_TC_8" /> -->
+<!-- 						<include name="EV_TC_9" /> -->
+<!-- 						<include name="EV_TC_10" /> -->
+<!-- 						<include name="EV_TC_11" /> -->
+<!-- 						<include name="EV_TC_12" /> -->
+<!-- 						<include name="EV_TC_13" /> -->
+<!-- 						<include name="EV_TC_14" /> -->
+<!-- 						<include name="EV_TC_15" /> -->
+<!-- 						<include name="EV_TC_16" /> -->
+<!-- 						<include name="EV_TC_17" /> -->
+<!-- 						<include name="EV_TC_18" /> -->
+<!-- 						<include name="EV_TC_19" /> -->
+						<include name="EV_TC_20" />
+<!-- 						<include name="EV_TC_21" /> -->
+<!-- 						<include name="EV_TC_22" /> -->
+<!-- 						<include name="EV_TC_23" /> -->
+<!-- 						<include name="EV_TC_24" /> -->
+<!-- 						<include name="EV_TC_25" /> -->
+<!-- 						<include name="EV_TC_26" /> -->
+<!-- 						<include name="EV_TC_27" /> -->
+<!-- 						<include name="EV_TC_28" /> -->
+<!-- 						<include name="EV_TC_29" /> -->
+<!-- 						<include name="EV_TC_30" /> -->
+<!-- 						<include name="EV_TC_31" /> -->
+<!-- 						<include name="EV_TC_32" /> -->
+<!-- 						<include name="EV_TC_33" /> -->
+<!-- 						<include name="EV_TC_34" /> -->
+<!-- 						<include name="EV_TC_35" /> -->
+<!-- 						<include name="EV_TC_36" /> -->
+<!-- 						<include name="EV_TC_37" /> -->
+<!-- 						<include name="EV_TC_38" /> -->
+<!-- 						<include name="EV_TC_41" /> -->
+<!-- 						<include name="EV_TC_42" /> -->
+<!-- 						<include name="EV_TC_43" /> -->
+<!-- 						<include name="EV_TC_44" /> -->
+<!-- 						<include name="EV_TC_45" /> -->
+<!-- 						<include name="EV_TC_46" /> -->
+<!-- 						<include name="EV_TC_47" /> -->
+<!-- 						<include name="EV_TC_48" /> -->
+<!-- 						<include name="EV_TC_49" /> -->
+<!-- 						<include name="EV_TC_50" /> -->
+<!-- 						<include name="EV_TC_51" /> -->
+<!-- 						<include name="EV_TC_52" /> -->
+<!-- 						<include name="EV_TC_53" /> -->
+<!-- 						<include name="EV_TC_54" /> -->
+<!-- 						<include name="EV_TC_55" /> -->
+<!-- 						<include name="EV_TC_56" /> -->
+<!-- 						<include name="EV_TC_57" /> -->
+<!-- 						<include name="EV_TC_58" /> -->
+<!-- 						<include name="EV_TC_59" /> -->
+<!-- 						<include name="EV_TC_60" /> -->
+<!-- 						<include name="EV_TC_61" /> -->
+<!-- 						<include name="EV_TC_62" /> -->
+<!-- 						<include name="EV_TC_63" /> -->
+<!-- 						<include name="EV_TC_64" /> -->
+<!-- 						<include name="EV_TC_65" /> -->
+<!-- 						<include name="EV_TC_69" /> -->
+<!-- 						<include name="EV_TC_70" /> -->
+<!-- 						<include name="EV_TC_71" /> -->
+            		</methods>
+            	</class>
+   	  </classes>       
+	</test>
+       
+</suite>

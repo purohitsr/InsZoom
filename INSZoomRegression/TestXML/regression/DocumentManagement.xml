@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Document Management Suite" verbose="3" >
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+      <parameter name="sheetName" value="Document Management" />
+
+<!--       <parameter name="webSite" value="https://global.inszoom.com/" /> -->
+<!--       <parameter name="env" value="PROD" /> -->
+      
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+      
+<!--       <parameter name="webSite" value="https://zoomstg.guisystems.com/" /> -->
+<!--       <parameter name="env" value="STAGE" /> -->
+
+<!-- 		 <test name="Mandatory">  -->
+<!--         	<classes> -->
+<!--            		<class name="com.inszoomapp.testscripts.CaseManagerTestScript"> -->
+<!--             		<methods> -->
+<!-- 	            		<include name="CM_TC_1" /> -->
+<!-- 	            		<include name="CM_TC_3" />	           -->
+<!-- 	            		<include name="CM_TC_4" /> -->
+<!-- 	            		<include name="CM_TC_60_3" /> -->
+<!--             		</methods> -->
+<!--             	</class> -->
+<!-- 		    </classes> -->
+<!--        	</test> -->
+        	
+	    <test name="Document Management"> 
+		    <groups>
+	        	<run>
+		            <include name="documents" />
+		        </run>
+		    </groups>
+		    <classes>
+		        <class name="com.inszoomapp.testscripts.DocumentManagementTestScript" />
+		        <class name="com.inszoomapp.testscripts.CaseManagerTestScript" />
+		        <class name="com.inszoomapp.testscripts.HRPTestScript" />
+		        <class name="com.inszoomapp.testscripts.FNPTestScript" />
+		    </classes>
+		</test>
+		
+		<test name="DM-Parked"> 
+			<classes>
+			
+				<class name="com.inszoomapp.testscripts.DocumentManagementTestScript" >
+		        	<methods>
+		        		<include name="Corp_Doc_25_1" />
+		        		<include name="Case_Doc_25_1" />
+		        		<include name="Client_Doc_25_1" />
+		        		<include name="Case_Doc_27_1" />
+		        		<include name="Case_Doc_9_1" />
+		        		<include name="Case_Doc_27_2" />
+		        		<include name="Client_Doc_27" />
+		        		<include name="Corp_Doc_27" />
+		        	</methods>
+		        </class>
+		        
+			</classes>
+		</test>		    
+</suite>

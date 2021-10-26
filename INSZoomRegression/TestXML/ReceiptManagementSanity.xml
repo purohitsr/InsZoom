@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://qa.guisystems.com/" />
+      <parameter name="env" value="QA" />
+
+      <test name="INSZoomTestcase Execution">
+     	<groups>
+        	<run>
+	            <include name="receiptManagement" />
+	        </run>
+	    </groups>
+		<classes>
+			<class name="com.inszoomapp.testscripts.ReceiptManagementTestScript">			
+				<methods>
+					<include name = "RM_TC_33" />
+					<include name = "RM_TC_34" />
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>

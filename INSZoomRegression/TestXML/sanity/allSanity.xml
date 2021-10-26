@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SanitySuites">
+  <suite-files>
+    <suite-file path="SystemSanity_Prod.xml" />
+    <suite-file path="SystemSanity_QA.xml" />
+    
+  </suite-files>
+</suite>
+					

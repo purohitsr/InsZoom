@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" verbose="3">
+      <parameter name="deviceHost" value="localhost" />
+      <parameter name="devicePort" value="4444" />
+      <parameter name="browserName" value="chrome_windows" />
+
+      <parameter name="webSite" value="https://global.inszoom.com/" />
+      <parameter name="env" value="PROD" />
+
+
+      <test name="INSZoomTestcase Execution">	
+		<classes>		
+			<class name="ContentAutomation.Testscript">			
+				<methods>
+				
+<!-- 					<include name="formDataValidation" /> -->
+<!-- 					<include name="contentAutomaiton_1" /> -->
+					<include name="contentAutomaiton_2" />
+<!-- 					<include name="contentAutomaiton_3" /> -->
+<!-- 					<include name="contentAutomaiton_4" /> -->
+<!-- 					<include name="contentAutomaiton_5" /> -->
+				
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	
+					
+	
+	
+</suite>

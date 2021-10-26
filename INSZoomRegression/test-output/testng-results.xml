@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Successfully lauched the URL https://qa.guisystems.com/</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Typed asauravstg in Username textbox.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Typed Zoom@123 in Password textbox.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on Login Button</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on Login Button</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Time Taken to Login TO application is 11</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Agree option in the disclaimer is not present</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on Case Tab from left menu</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on Case Tab from left menu</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on Show all cases-3264627218</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on Show all cases-3264627218</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;-3264627241</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Typed KBGRIT06900-1 in in case Id search box textbox.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on Case ID</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on Case ID</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on EQUALTO filter to search client and waited for the loader to become invisible</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on KBGRIT06900-1</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on KBGRIT06900-1</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on To Do tab</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on To Do tab</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on New To Do button</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on New To Do button</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on questionnaire icon</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on questionnaire icon</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Selected option Client15-09-2021 06:01:30 Lname15-09-2021 06:01:30 from Dropdown By Visible text</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Typed Instruction for To-Do Questionnaire in instruction textbox.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on expand Questionnaire</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on expand Questionnaire</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on add questionnaire link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on add questionnaire link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Typed Automation-I-941: Application for Entrepreneur Parole in entered questionnaire name textbox.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on add questionnaire icon</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on add questionnaire icon</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicking on unlink all</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Clicked on unlink all</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Questionnaire was not present earlier</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;&emsp;<a href=".\ScreenShot\CM_TC_112_1_1.png" target="_blank" >[ScreenShot]</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="green"><strong> Verified Automation-I-941: Application for Entrepreneur Parole in add to-do page </strong></font> </div>&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-message">&emsp;Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0&emsp;<a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div>]]>
+    </line>
+    <line>
+      <![CDATA[<!--FAIL-->]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="red"><strong> Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0 </strong></font> <a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div>&emsp;]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo" duration-ms="200363" started-at="2021-09-22T12:26:26Z" finished-at="2021-09-22T12:29:46Z">
+    <groups>
+      <group name="ToDo">
+        <method signature="ToDoTestScripts.CM_TC_112_1(java.lang.String)[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="CM_TC_112_1" class="com.inszoomapp.testscripts.ToDoTestScripts"/>
+      </group> <!-- ToDo -->
+      <group name="case">
+        <method signature="ToDoTestScripts.CM_TC_112_1(java.lang.String)[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="CM_TC_112_1" class="com.inszoomapp.testscripts.ToDoTestScripts"/>
+      </group> <!-- case -->
+    </groups>
+    <test name="INSZoomTestcase Execution_CaseManager" duration-ms="200363" started-at="2021-09-22T12:26:26Z" finished-at="2021-09-22T12:29:46Z">
+      <class name="com.inszoomapp.testscripts.ToDoTestScripts">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="beforeSuite" is-config="true" duration-ms="205" started-at="2021-09-22T17:56:26Z" finished-at="2021-09-22T17:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="init" is-config="true" duration-ms="188" started-at="2021-09-22T17:56:26Z" finished-at="2021-09-22T17:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c60d6e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="skipTestCase()[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="skipTestCase" is-config="true" duration-ms="0" started-at="2021-09-22T17:56:26Z" finished-at="2021-09-22T17:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-09-22T17:56:26Z" finished-at="2021-09-22T17:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="CM_TC_112_1(java.lang.String)[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="CM_TC_112_1" duration-ms="198461" started-at="2021-09-22T17:56:28Z" description="Case: To-Do Questionnaire" data-provider="parallelTestDataProvider" finished-at="2021-09-22T17:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[, chrome_WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.support.files.Log.fail(Log.java:727)
+	at com.support.files.Utils.waitForElement(Utils.java:357)
+	at com.inszoomapp.pages.CM_ClientToDoPage.addNewToDoUsingQuestionnaireTemplateAndDocsCheckList(CM_ClientToDoPage.java:410)
+	at com.inszoomapp.testscripts.ToDoTestScripts.CM_TC_112_1(ToDoTestScripts.java:959)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Successfully lauched the URL https://qa.guisystems.com/</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Typed asauravstg in Username textbox.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Typed Zoom@123 in Password textbox.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on Login Button</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on Login Button</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Time Taken to Login TO application is 11</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Agree option in the disclaimer is not present</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on Case Tab from left menu</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on Case Tab from left menu</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on Show all cases-3264627218</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on Show all cases-3264627218</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;-3264627241</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Typed KBGRIT06900-1 in in case Id search box textbox.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on Case ID</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on Case ID</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on EQUALTO filter to search client and waited for the loader to become invisible</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on KBGRIT06900-1</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on KBGRIT06900-1</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on To Do tab</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on To Do tab</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on New To Do button</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on New To Do button</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on questionnaire icon</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on questionnaire icon</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Selected option Client15-09-2021 06:01:30 Lname15-09-2021 06:01:30 from Dropdown By Visible text</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Typed Instruction for To-Do Questionnaire in instruction textbox.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on expand Questionnaire</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on expand Questionnaire</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on add questionnaire link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on add questionnaire link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Typed Automation-I-941: Application for Entrepreneur Parole in entered questionnaire name textbox.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on add questionnaire icon</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on add questionnaire icon</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicking on unlink all</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Clicked on unlink all</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Questionnaire was not present earlier</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;&emsp;<a href=".\ScreenShot\CM_TC_112_1_1.png" target="_blank" >[ScreenShot]</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="green"><strong> Verified Automation-I-941: Application for Entrepreneur Parole in add to-do page </strong></font> </div>&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-message">&emsp;Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0&emsp;<a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div>]]>
+            </line>
+            <line>
+              <![CDATA[<!--FAIL-->]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="red"><strong> Waited but element not found. ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='onoffswitch-inner' and @linked-count] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-HYD-X312', ip: '192.168.173.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SAURAV~1.PUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2c1e80c04fab89279030f71d40...}
+Session ID: c2c1e80c04fab89279030f71d401c9e0 </strong></font> <a href=".\ScreenShot\CM_TC_112_1_2.png" target="_blank" >[ScreenShot]</a></div>&emsp;]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CM_TC_112_1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-09-22T17:59:46Z" finished-at="2021-09-22T17:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c60d6e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.inszoomapp.testscripts.ToDoTestScripts@26a7b76d]" name="afterSuite" is-config="true" duration-ms="170" started-at="2021-09-22T17:59:46Z" finished-at="2021-09-22T17:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.inszoomapp.testscripts.ToDoTestScripts -->
+    </test> <!-- INSZoomTestcase Execution_CaseManager -->
+  </suite> <!-- Demo -->
+</testng-results>
